@@ -1,5 +1,6 @@
 package CommonFunctions;
 
+import java.io.File;
 import java.io.FileInputStream;
 //import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -19,10 +20,13 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.monte.screenrecorder.ScreenRecorder;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 //import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterSuite;
 
 import org.testng.annotations.BeforeSuite;
@@ -177,5 +181,15 @@ public class CommonFunctions{
 		FileOutputStream fos = new FileOutputStream("C:\\Users\\rajeev_m\\git\\repository\\BITSAUTOMATION\\excel\\TestData.xlsx");
 		wb.write(fos);
 		wb.close();
-	}	
+	}
+	public static void captureScreen(String FileName) throws Throwable
+	{
+		TakesScreenshot screenshot = (TakesScreenshot) driver;
+		File sourceFile = screenshot.getScreenshotAs(OutputType.FILE);
+		String parentDirectory = properties.getProperty("Screenshots");
+		File destinationFile = new File(parentDirectory,FileName);
+		FileHandler.copy(sourceFile, destinationFile);
+		extenttestCase.addScreenCaptureFromPath(FileName);
+
+	}
 }
