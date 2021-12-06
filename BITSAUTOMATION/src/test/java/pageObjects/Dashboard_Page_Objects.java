@@ -130,7 +130,7 @@ public class Dashboard_Page_Objects {
 	@FindBy(xpath="//select[@name='semseter']")
 	public static WebElement Semester_drpdwn;
 	
-	@FindBy(xpath="//div[@class='stepper-progress']")
+	@FindBy(xpath="//div[@class='stepper-progress']/div")
 	public static List<WebElement> Progress_StepList;
 	
 	@FindBy(xpath="//div[@id='step1']")
@@ -249,26 +249,24 @@ public class Dashboard_Page_Objects {
 	
 	//Students availability in different CGPA Range
 	
-	@FindBy(xpath="(//*[local-name() = 'g'][@clip-path='url(\"#id-645\")']//*[local-name() = 'tspan'])[1]")
+	@FindBy(xpath="(//*[name()='g'][@focusable and @tabindex])[7]")
 	public static WebElement CGPA_less5;
 	
-	@FindBy(xpath="(//*[local-name() = 'g'][@clip-path='url(\"#id-645\")']//*[local-name() = 'tspan'])[2]")
+	@FindBy(xpath="(//*[name()='g'][@focusable and @tabindex])[8]")
 	public static WebElement CGPA_5to6;
 	
-	@FindBy(xpath="(//*[local-name() = 'g'][@clip-path='url(\"#id-645\")']//*[local-name() = 'tspan'])[2]")
+	@FindBy(xpath="(//*[name()='g'][@focusable and @tabindex])[9]")
 	public static WebElement CGPA_6to7;
 	
-	@FindBy(xpath="(//*[local-name() = 'g'][@clip-path='url(\"#id-645\")']//*[local-name() = 'tspan'])[2]")
+	@FindBy(xpath="(//*[name()='g'][@focusable and @tabindex])[10]")
 	public static WebElement CGPA_7to8;
 	
-	@FindBy(xpath="(//*[local-name() = 'g'][@clip-path='url(\"#id-645\")']//*[local-name() = 'tspan'])[2]")
+	@FindBy(xpath="(//*[name()='g'][@focusable and @tabindex])[11]")
 	public static WebElement CGPA_8to9;
 	
-	@FindBy(xpath="(//*[local-name() = 'g'][@clip-path='url(\"#id-645\")']//*[local-name() = 'tspan'])[2]")
+	@FindBy(xpath="(//*[name()='g'][@focusable and @tabindex])[12]")
 	public static WebElement CGPA_9to10;
 	//div[@class='dashcount']//strong
 	
 	
-	
-
 }
