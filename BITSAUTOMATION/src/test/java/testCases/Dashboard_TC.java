@@ -19,9 +19,7 @@ import CommonFunctions.CommonFunctions;
 import pageObjects.Dashboard_Page_Objects;
 
 public class Dashboard_TC extends CommonFunctions {
-	
-	
-	
+		
 public void	getLiveAllotmentstatus(int count){
 		driver.findElement(By.xpath("//div[@class='stepper-progress']/div["+(count+1)+"]"));
 		String step=driver.findElement(By.xpath("//div[@class='stepper-progress']/div["+(count+1)+"]")).getAttribute("id");
