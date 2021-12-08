@@ -60,7 +60,7 @@ public class Login extends CommonFunctions{
 		Thread.sleep(2000);		
 		Login_Page_Objects.SignIn.click();
 		Thread.sleep(2000);
-		CommonFunctions.captureScreen("LoginPage.png");
+		CommonFunctions.captureScreen("Login Validation - Invalid credentials.png");
 		String LoginWarn = Login_Page_Objects.LoginWarn.getText();
 		
 		if(LoginWarn.contentEquals("Invalid User Id or password"))
@@ -81,7 +81,7 @@ public class Login extends CommonFunctions{
 		Login_Page_Objects.UserId.clear();
 		Thread.sleep(2000);
 		
-		Login_Page_Objects.UserId.sendKeys(getExcelData("Login", 5, 0));
+		Login_Page_Objects.UserId.sendKeys(getExcelData("Login", 1, 0));
 		Thread.sleep(2000);
 		
 		Login_Page_Objects.Password.clear();

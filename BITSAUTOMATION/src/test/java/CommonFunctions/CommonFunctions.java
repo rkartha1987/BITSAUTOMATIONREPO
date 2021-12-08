@@ -110,7 +110,7 @@ public class CommonFunctions{
 	public static String getExcelData(String sheetName, int rowNum, int colNum) throws Throwable
 	{
 		
-		FileInputStream fis = new FileInputStream("C:\\Users\\rajeev_m\\git\\repository\\BITSAUTOMATION\\excel\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(properties.getProperty("FileInputStream"));
 		Workbook wb = WorkbookFactory.create(fis);
 		Sheet sh = wb.getSheet(sheetName);
 		Row row = sh.getRow(rowNum);	
@@ -121,7 +121,7 @@ public class CommonFunctions{
 
 	public static int getExcelData1(String sheetName, int rowNum, int colNum) throws Throwable
 	{
-		FileInputStream fis = new FileInputStream("C:\\Users\\rajeev_m\\git\\repository\\BITSAUTOMATION\\excel\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(properties.getProperty("FileInputStream"));
 		Workbook wb = WorkbookFactory.create(fis);
 		Sheet sh = wb.getSheet(sheetName);
 		Row row = sh.getRow(rowNum);
@@ -132,7 +132,7 @@ public class CommonFunctions{
 
 	public static int getCellCount(String sheetName) throws Throwable 
 	{
-		FileInputStream fis = new FileInputStream("C:\\Users\\rajeev_m\\git\\repository\\BITSAUTOMATION\\excel\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(properties.getProperty("FileInputStream"));
 		Workbook wb = WorkbookFactory.create(fis);
 		Sheet sh = wb.getSheet(sheetName);
 		Row row = sh.getRow(0);
@@ -142,7 +142,7 @@ public class CommonFunctions{
 
 	public static int getExcelRandomRowNum(String sheetName) throws Throwable
 	{
-		FileInputStream fis = new FileInputStream("C:\\Users\\rajeev_m\\git\\repository\\BITSAUTOMATION\\excel\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(properties.getProperty("FileInputStream"));
 		Workbook wb = WorkbookFactory.create(fis);
 		Sheet sh = wb.getSheet(sheetName);
 		Random rand = new Random();
@@ -151,20 +151,20 @@ public class CommonFunctions{
 	}
 	public static void setExcelData(String sheetName, int rowNum, int colNum,String data) throws Throwable
 	{
-		FileInputStream fis = new FileInputStream("C:\\Users\\rajeev_m\\git\\repository\\BITSAUTOMATION\\excel\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(properties.getProperty("FileInputStream"));
 		Workbook wb = WorkbookFactory.create(fis);
 		Sheet sh = wb.getSheet(sheetName);
 		Row row = sh.getRow(rowNum);
 		Cell cel = row.createCell(colNum);
 		cel.setCellValue(data);
-		FileOutputStream fos = new FileOutputStream("C:\\Users\\rajeev_m\\git\\repository\\BITSAUTOMATION\\excel\\TestData_Out.xlsx");
+		FileOutputStream fos = new FileOutputStream(properties.getProperty("FileOutputStream"));
 		wb.write(fos);
 		wb.close();
 	}
 
 	public static int getRowCount(String sheetName) throws Throwable 
 	{
-		FileInputStream fis = new FileInputStream("C:\\Users\\rajeev_m\\git\\repository\\BITSAUTOMATION\\excel\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(properties.getProperty("FileInputStream"));
 		Workbook wb = WorkbookFactory.create(fis);
 		int rowIndex = wb.getSheet(sheetName).getLastRowNum();
 		return rowIndex;
@@ -172,13 +172,13 @@ public class CommonFunctions{
 
 	public static void setExcelDataInteg(String sheetName, int rowNum, int colNum,int data) throws Throwable
 	{
-		FileInputStream fis = new FileInputStream("C:\\Users\\rajeev_m\\git\\repository\\BITSAUTOMATION\\excel\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(properties.getProperty("FileInputStream"));
 		Workbook wb = WorkbookFactory.create(fis);
 		Sheet sh = wb.getSheet(sheetName);
 		Row row = sh.getRow(rowNum);
 		Cell cel = row.createCell(colNum);
 		cel.setCellValue(data);
-		FileOutputStream fos = new FileOutputStream("C:\\Users\\rajeev_m\\git\\repository\\BITSAUTOMATION\\excel\\TestData.xlsx");
+		FileOutputStream fos = new FileOutputStream(properties.getProperty("FileOutputStream"));
 		wb.write(fos);
 		wb.close();
 	}
