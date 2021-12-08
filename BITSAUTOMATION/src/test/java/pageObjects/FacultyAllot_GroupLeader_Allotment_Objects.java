@@ -13,7 +13,7 @@ public class FacultyAllot_GroupLeader_Allotment_Objects {
 	
 	
 	
-	//-----------Faculty Allotment dropdown list----------------
+	//-----------Faculty Allotment dropdown list----------------//
 	@FindBy(xpath="//a[text()=' Faculty Allotment ']")
 	public static WebElement  FacultyAllotment;
 
