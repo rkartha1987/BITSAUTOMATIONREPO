@@ -12,8 +12,7 @@ import CommonFunctions.CommonFunctions;
 public class FacultyAllot_GroupLeader_Allotment_Objects {
 	
 	
-	
-	//-----------Faculty Allotment dropdown list----------------//
+	//-----------Faculty Allotment dropdown list----------------
 	@FindBy(xpath="//a[text()=' Faculty Allotment ']")
 	public static WebElement  FacultyAllotment;
 
@@ -41,7 +40,7 @@ public class FacultyAllot_GroupLeader_Allotment_Objects {
 	@FindBy(xpath="//button[text()=' Allot Group Leader ']")
 	public static WebElement  AllotGroupLeader_btn;
 	
-	@FindBy(xpath = "/html/body/app-root/app-layout/app-station-faculty-groupleader/div/div[2]/div/div[1]/div/div/div/div[3]/div/select")
+	@FindBy(xpath = "//div/select")
 	public static WebElement  BatchYear;
 		
 	@FindBy(xpath="//select//ancestor::div[@class='col-12 col-sm-12 col-md-6 col-lg-6 col-xl-2']//following-sibling::div/div/select")
@@ -66,7 +65,7 @@ public class FacultyAllot_GroupLeader_Allotment_Objects {
 	//public static WebElement RecordsNotFound;
 
 	@FindBy(xpath="//table")
-	public static List<WebElement> DynamicGrid;
+	public static WebElement DynamicGrid;
 	
 	@FindBy(xpath="//table/thead/tr/th")
 	public static List<WebElement> DynamicGridcol;
@@ -74,7 +73,7 @@ public class FacultyAllot_GroupLeader_Allotment_Objects {
 	@FindBy(xpath="//table/tbody/tr/td[6]/div/select")
 	public static List<WebElement> GroupLead_drpdwn_Grid;
 
-	@FindBy(xpath="//table/tbody//tr//td[1]")
+	@FindBy(xpath="//table/tbody//td[1]")
 	public static List<WebElement> Station_val;
 	
 	@FindBy(xpath="//table/tbody//tr//td[3]")
@@ -97,8 +96,8 @@ public class FacultyAllot_GroupLeader_Allotment_Objects {
 	@FindBy(xpath="//div[@class='modal-footer']/button[text()='Close']")
 	public static WebElement Close_alertbtn;
 	
-	@FindBy(xpath="//div[contains(text(),'Record(s) updated successfully')]")
+	@FindBy(xpath="//div[@id='toast-container']")
 	public static WebElement Toaster;
-	
+
 	
 }
