@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [BITS Automation]" guice-stage="DEVELOPMENT" verbose="2">
-  <test thread-count="5" name="Problem Bank Add - Faculty Role(failed)" verbose="2">
+  <test thread-count="5" name="Login(failed)" verbose="2">
     <classes>
-      <class name="testCases.FacultyRole_ProblemBank_Add">
+      <class name="testCases.Login">
         <methods>
           <include name="tearDown"/>
-          <include name="AddFacility"/>
+          <include name="InvalidUserIdandPassword"/>
+          <include name="ValidUserIdandPassword"/>
           <include name="launchBrowser"/>
         </methods>
-      </class> <!-- testCases.FacultyRole_ProblemBank_Add -->
+      </class> <!-- testCases.Login -->
     </classes>
-  </test> <!-- Problem Bank Add - Faculty Role(failed) -->
+  </test> <!-- Login(failed) -->
 </suite> <!-- Failed suite [BITS Automation] -->

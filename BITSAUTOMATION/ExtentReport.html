@@ -40,7 +40,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-				<span class='label suite-start-time'>22-Nov-2021, 3:16:48 pm</span>
+				<span class='label suite-start-time'>10-Dec-2021, 5:52:28 pm</span>
 			</a>
 			<a href='#!'>
 				<span class='label'>v3.0.1</span>
@@ -62,6 +62,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -112,10 +113,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span><span class='strong'>1</span> test(s) passed</span>
+					<span><span class='strong'>2</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong'>0</span> test(s) failed, <span class='strong'>0</span> others
+					<span class='strong'>1</span> test(s) failed, <span class='strong'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -127,10 +128,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span><span class='strong'>2</span> step(s) passed</span>
+					<span><span class='strong'>21</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong'>0</span> step(s) failed, <span class='strong'>2</span> others
+					<span class='strong'>6</span> step(s) failed, <span class='strong'>29</span> others
 				</div>
 			</div>
 		</div>
@@ -147,15 +148,15 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Login Authentication Validation</span>
-						<span class='test-time'>22-Nov-2021, 3:16:57 pm</span>
+						<span class='test-name'>Login Authentication Validation : ValidUserandinvalidPass</span>
+						<span class='test-time'>10-Dec-2021, 5:52:34 pm</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>22-Nov-2021, 3:16:57 pm</span>
-	<span class='label end-time'>22-Nov-2021, 3:17:22 pm</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 24s+742ms</span>
+	<span class='label start-time'>10-Dec-2021, 5:52:34 pm</span>
+	<span class='label end-time'>10-Dec-2021, 5:52:58 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 24s+57ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -169,27 +170,356 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:16:57 pm</td>
+					<td class='timestamp'>5:52:34 pm</td>
 					<td class='step-details'>Verifying Login Authentication with Invalid User Id and Password</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:17:10 pm</td>
+					<td class='timestamp'>5:52:46 pm</td>
 					<td class='step-details'>Login validation done with Invalid User Id and Password</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>3:17:10 pm</td>
+					<td class='timestamp'>5:52:46 pm</td>
 					<td class='step-details'>Verifying Login Authentication with Valid User Id and Password</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>3:17:22 pm</td>
+					<td class='timestamp'>5:52:58 pm</td>
 					<td class='step-details'>Login validation done with Valid User Id and Password</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='Login Validation - Invalid credentials.png' width='10%' src='' data-src='Login Validation - Invalid credentials.png'></li>
+								<li><img data-featherlight='UserLogin - Dashboard.png' width='10%' src='' data-src='UserLogin - Dashboard.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>Verifying Admin's Dashboard Page</span>
+						<span class='test-time'>10-Dec-2021, 5:52:59 pm</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>10-Dec-2021, 5:52:59 pm</span>
+	<span class='label end-time'>10-Dec-2021, 5:54:51 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 52s+56ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:01 pm</td>
+					<td class='step-details'>Landed in Admin's Dashboard Page</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:03 pm</td>
+					<td class='step-details'>Verifying Admin's Dashboard</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:53:08 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:08 pm</td>
+					<td class='step-details'>Verifying Practice School Details</td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>5:53:12 pm</td>
+					<td class='step-details'>Current Batch - N/A Validation Failed</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:12 pm</td>
+					<td class='step-details'>Verifying Semester Details Of Students</td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>5:53:16 pm</td>
+					<td class='step-details'>Practice School - N/A Validation Failed: Semester - Semester 1</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:16 pm</td>
+					<td class='step-details'>Verifying Current Batch Details Of Students</td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>5:53:20 pm</td>
+					<td class='step-details'>Semester - Semester II Validation FailedCurrent Batch - 2021-22</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:20 pm</td>
+					<td class='step-details'>Verifying Total No.Of Students</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:53:24 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:24 pm</td>
+					<td class='step-details'>Verifying the Allotted Students</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:53:28 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:28 pm</td>
+					<td class='step-details'>Verifying the Allotted Organizations</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:53:33 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:33 pm</td>
+					<td class='step-details'>Verifying the Organizations Announced Details</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:53:37 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:37 pm</td>
+					<td class='step-details'>Verifying the Allotted to Core Discipline Details</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:53:41 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:41 pm</td>
+					<td class='step-details'>Verifying the Allotted to Non Core Discipline Details</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:53:45 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:45 pm</td>
+					<td class='step-details'>Verifying the Allotted with Top-5 Preferences Details</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:53:49 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:49 pm</td>
+					<td class='step-details'>Verifying the count of Participated Stations</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:53:53 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:53 pm</td>
+					<td class='step-details'>Verifying the count of Announced Stations</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:53:57 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:53:57 pm</td>
+					<td class='step-details'>Verifying the count of Allotted Stations</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:54:01 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:54:01 pm</td>
+					<td class='step-details'>Verifying the count of Total Requirements</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:54:05 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:54:05 pm</td>
+					<td class='step-details'>Verifying the count of Total Allotted</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:54:10 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:54:10 pm</td>
+					<td class='step-details'>Verifying the Stipend-Highest</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:54:16 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:54:16 pm</td>
+					<td class='step-details'>Verifying the Stipend-Average</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:54:20 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:54:20 pm</td>
+					<td class='step-details'>Verifying the Stipend-Median</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:54:24 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:54:24 pm</td>
+					<td class='step-details'>Verifying the Stipend-Lowest</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:54:28 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:54:28 pm</td>
+					<td class='step-details'>Verifying the Faculty-Total</td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>5:54:34 pm</td>
+					<td class='step-details'>Validation Failed</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:54:34 pm</td>
+					<td class='step-details'>Verifying the Faculty-On Campus</td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>5:54:38 pm</td>
+					<td class='step-details'>Validation Failed</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:54:38 pm</td>
+					<td class='step-details'>Verifying the Faculty-Off Campus</td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>5:54:43 pm</td>
+					<td class='step-details'>Validation Failed</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:54:43 pm</td>
+					<td class='step-details'>Verifying the Faculty-Allotted</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:54:47 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:54:47 pm</td>
+					<td class='step-details'>Verifying the Faculty-Available</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>5:54:51 pm</td>
+					<td class='step-details'>Validation Done Successfully</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='Admin - Dashboard.png' width='10%' src='' data-src='Admin - Dashboard.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>Verifying Sign Out from the Application</span>
+						<span class='test-time'>10-Dec-2021, 5:54:51 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>10-Dec-2021, 5:54:51 pm</span>
+	<span class='label end-time'>10-Dec-2021, 5:54:56 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+488ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>5:54:56 pm</td>
+					<td class='step-details'>User Successfully Signed out</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='UserLogin - Logging Out.png' width='10%' src='' data-src='UserLogin - Logging Out.png'></li>
+								<li><img data-featherlight='UserLogin - Logged Out.png' width='10%' src='' data-src='UserLogin - Logged Out.png'></li>
+							</ul>
 					</div>
 				</li>
 			</ul>
@@ -224,31 +554,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>4</div>
+					<div class='panel-lead'>56</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>22-Nov-2021, 3:16:48 pm</div>
+					<div class='panel-lead'>10-Dec-2021, 5:52:28 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>22-Nov-2021, 3:17:24 pm</div>
+			 		<div class='panel-lead'>10-Dec-2021, 5:54:58 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>35,669ms</div>
+					<div class='panel-lead'>149,899ms</div>
 				</div>
 			</div>
 		</div>
@@ -260,22 +590,22 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 1,
-				failParent: 0,
+				passParent: 2,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				
-				passChild: 2,
-				failChild: 0,
+				passChild: 21,
+				failChild: 6,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
-				infoChild: 2,
-				exceptionsChild: 0,
+				infoChild: 29,
+				exceptionsChild: 6,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

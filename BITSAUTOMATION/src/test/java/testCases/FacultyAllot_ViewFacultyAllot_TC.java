@@ -1,4 +1,4 @@
-/*package testCases;
+package testCases;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -148,4 +148,3 @@ public class FacultyAllot_ViewFacultyAllot_TC extends CommonFunctions{
 
 
 }
-*/
