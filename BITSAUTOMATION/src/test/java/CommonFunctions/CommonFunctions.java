@@ -190,6 +190,5 @@ public class CommonFunctions{
 		File destinationFile = new File(parentDirectory,FileName);
 		FileHandler.copy(sourceFile, destinationFile);
 		extenttestCase.addScreenCaptureFromPath(FileName);
-
 	}
 }

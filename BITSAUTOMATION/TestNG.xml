@@ -5,7 +5,7 @@
 	 <test name="Login">
 		<classes> 
 			<class name="testCases.Login"></class>
-			<class name="testCases.AdminRole_Dashboard"></class><class name="testCases.AdminRole_Dashboard"></class><class name="testCases.AdminRole_Dashboard"></class><class name="testCases.AdminRole_Dashboard"></class><class name="testCases.AdminRole_Dashboard"></class><class name="testCases.AdminRole_Dashboard"></class>
+			<class name="testCases.AdminRole_Dashboard"></class>
 <!-- 			<class name="testCases.FacultyRole_Dashboard"></class> -->
 <!-- 			<class name="testCases.StudentRole_Dashboard"></class> -->
 <!-- 			<class name="testCases.AllotmentRole_Dashboard"></class> -->

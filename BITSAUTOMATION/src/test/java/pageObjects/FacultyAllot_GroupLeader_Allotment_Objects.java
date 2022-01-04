@@ -1,13 +1,8 @@
 package pageObjects;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-import CommonFunctions.CommonFunctions;
 
 public class FacultyAllot_GroupLeader_Allotment_Objects {
 	
