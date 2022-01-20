@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
-  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
@@ -47,42 +47,39 @@
     <version>1.2.17</version>
 </dependency>
   
-  <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
     <version>5.0.8</version>
 </dependency>
   
-  <!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
+<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
 <dependency>
     <groupId>org.freemarker</groupId>
     <artifactId>freemarker</artifactId>
     <version>2.3.31</version>
 </dependency>
   
-  <!-- https://mvnrepository.com/artifact/org.mongodb/bson -->
+<!-- https://mvnrepository.com/artifact/org.mongodb/bson -->
 <dependency>
     <groupId>org.mongodb</groupId>
     <artifactId>bson</artifactId>
     <version>4.2.3</version>
 </dependency>
   
-  <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
     <version>3.0.1</version>
-</dependency>
+</dependency> 
   
-  <!-- https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder -->
+<!-- https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder -->
 <dependency>
     <groupId>com.github.stephenc.monte</groupId>
     <artifactId>monte-screen-recorder</artifactId>
     <version>0.7.7.0</version>
 </dependency>  
-  
-  	
-  </dependencies>
-  
+</dependencies>  
 </project>

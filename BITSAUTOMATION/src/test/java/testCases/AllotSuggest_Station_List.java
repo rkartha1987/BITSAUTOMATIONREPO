@@ -1,44 +1,31 @@
 package testCases;
 
-import java.io.File;
-import java.io.IOException;
-
 import org.apache.log4j.Logger;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
-
 
 import CommonFunctions.CommonFunctions;
 import pageObjects.AllotSuggest_Station_List_Page_Objects;
 //import pageObjects.PlanSuggest_Station_List_Page_Objects;
 
 public class AllotSuggest_Station_List extends CommonFunctions{
-	
+
 	static Logger logger = Logger.getLogger(AllotSuggest_Station_List.class);
-	
+
 	@Test(priority = 0)
-	public void StationMenu() throws InterruptedException, IOException
+	public void StationMenu() throws Throwable
 	{
 		extenttestCase=extentReport.createTest("Verifying Suggest Station List Page");
 		PageFactory.initElements(driver, AllotSuggest_Station_List_Page_Objects.class);
 		extenttestCase.log(Status.INFO,"Landing into Suggest Station List");
 		AllotSuggest_Station_List_Page_Objects.SSMenu.click();
 		Thread.sleep(2000);
-		
 
-		TakesScreenshot screenshot = (TakesScreenshot) driver;
-		File sourceFile = screenshot.getScreenshotAs(OutputType.FILE);
-		File destinationFile = new File("SuggestStationList.png");
-		FileHandler.copy(sourceFile, destinationFile);
-		extenttestCase.addScreenCaptureFromPath("SuggestStationList.png");
-
+		captureScreen("SuggestStationList.png");
 	}
-	
+
 	@Test(priority = 1)
 	public void Verifysort() throws InterruptedException
 	{
@@ -55,7 +42,7 @@ public class AllotSuggest_Station_List extends CommonFunctions{
 		AllotSuggest_Station_List_Page_Objects.SortPSType.click();
 		Thread.sleep(1000);
 	}
-	
+
 	@Test(priority = 2)
 	public void VerifyInvalidSearch() throws Throwable
 	{
@@ -79,7 +66,7 @@ public class AllotSuggest_Station_List extends CommonFunctions{
 
 		AllotSuggest_Station_List_Page_Objects.SearchField.clear();
 	}
-	
+
 	@Test(priority = 3)
 	public void VerifyValidSearchStation() throws Throwable
 	{
@@ -91,7 +78,7 @@ public class AllotSuggest_Station_List extends CommonFunctions{
 
 		AllotSuggest_Station_List_Page_Objects.SearchField.sendKeys(getExcelData("SStationList", 2, 1));
 		Thread.sleep(2000);
-		
+
 		AllotSuggest_Station_List_Page_Objects.SelectStatus.sendKeys(getExcelData("SStationList", 2, 2));
 		Thread.sleep(2000);
 
@@ -111,7 +98,7 @@ public class AllotSuggest_Station_List extends CommonFunctions{
 		Thread.sleep(2000);
 		AllotSuggest_Station_List_Page_Objects.SearchField.clear();
 	}
-	
+
 	@Test(priority = 4)
 	public void VerifyBDomain() throws Throwable
 	{
@@ -130,9 +117,9 @@ public class AllotSuggest_Station_List extends CommonFunctions{
 		System.out.println(BDomainResult);
 		String StatusResult = AllotSuggest_Station_List_Page_Objects.StatusResult.getText();
 		System.out.println(StatusResult);
-		
+
 		Thread.sleep(2000);
-		
+
 		if(BDomainResult.contentEquals(getExcelData("SStationList", 3, 1)) && StatusResult.contentEquals(getExcelData("SStationList", 3, 2)))
 		{
 			extenttestCase.log(Status.PASS, "Business Domain Search Validation Done Successfully");
@@ -144,7 +131,7 @@ public class AllotSuggest_Station_List extends CommonFunctions{
 		Thread.sleep(2000);
 		AllotSuggest_Station_List_Page_Objects.SearchField.clear();
 	}
-	
+
 	@Test(priority = 5)
 	public void VerifyParentCompany() throws Throwable
 	{
@@ -155,16 +142,16 @@ public class AllotSuggest_Station_List extends CommonFunctions{
 
 		AllotSuggest_Station_List_Page_Objects.SearchField.sendKeys(getExcelData("SStationList", 4, 1));
 		Thread.sleep(2000);
-		
+
 		AllotSuggest_Station_List_Page_Objects.SelectStatus.sendKeys(getExcelData("SStationList", 4, 2));
 		Thread.sleep(2000);
-		
+
 		String PCompanyResult = AllotSuggest_Station_List_Page_Objects.PCompanyResult.getText();
 		System.out.println(PCompanyResult);
 		String StatusResult = AllotSuggest_Station_List_Page_Objects.StatusResult.getText();
 		System.out.println(StatusResult);
 		Thread.sleep(2000);
-		
+
 		if(PCompanyResult.contentEquals(getExcelData("SStationList", 4, 1)) && StatusResult.contentEquals(getExcelData("SStationList", 4, 2)))
 		{
 			extenttestCase.log(Status.PASS, "Parent Company Search Validation Done Successfully");
@@ -173,11 +160,7 @@ public class AllotSuggest_Station_List extends CommonFunctions{
 		{
 			extenttestCase.log(Status.INFO, "Parent Company Search Validation Failed");
 		}
-		
 		Thread.sleep(2000);
 		driver.navigate().refresh();
-
 	}
-
-
 }

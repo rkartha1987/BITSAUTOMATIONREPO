@@ -1,12 +1,6 @@
 package testCases;
 
-import java.io.File;
-import java.io.IOException;
-
 import org.apache.log4j.Logger;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -21,7 +15,7 @@ public class AllStudent_Allot_List extends CommonFunctions{
 	static Logger logger = Logger.getLogger(AllStudent_Allot_List.class);
 	
 	@Test(priority = 0)
-	public void AllStudentMenu() throws InterruptedException, IOException
+	public void AllStudentMenu() throws Throwable
 	{
 		extenttestCase=extentReport.createTest("Verifying All Allotment Student List Page");
 		PageFactory.initElements(driver, AllStudent_Allot_List_Page_Objects.class);
@@ -31,11 +25,7 @@ public class AllStudent_Allot_List extends CommonFunctions{
 		AllStudent_Allot_List_Page_Objects.AllASMenu.click();
 		Thread.sleep(2000);
 		
-		TakesScreenshot screenshot = (TakesScreenshot) driver;
-		File sourceFile = screenshot.getScreenshotAs(OutputType.FILE);
-		File destinationFile = new File("AllAllotedStudentList.png");
-		FileHandler.copy(sourceFile, destinationFile);
-		extenttestCase.addScreenCaptureFromPath("AllAllotedStudentList.png");
+		captureScreen("AllAllotedStudentList.png");		
 	}
 	
 	@Test(priority = 1)

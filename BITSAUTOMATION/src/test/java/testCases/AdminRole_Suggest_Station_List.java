@@ -1,12 +1,6 @@
 package testCases;
 
-import java.io.File;
-import java.io.IOException;
-
 import org.apache.log4j.Logger;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
@@ -17,26 +11,21 @@ import CommonFunctions.CommonFunctions;
 import pageObjects.Suggest_Station_List_Page_Objects;
 
 public class AdminRole_Suggest_Station_List extends CommonFunctions{
-	
+
 	static Logger logger = Logger.getLogger(AdminRole_Suggest_Station_List.class);
-	
+
 	@Test(priority = 0)
-	public void StationMenu() throws InterruptedException, IOException
+	public void StationMenu() throws Throwable
 	{
 		extenttestCase=extentReport.createTest("Verifying Station Menu");
 		PageFactory.initElements(driver, Suggest_Station_List_Page_Objects.class);
 		extenttestCase.log(Status.INFO,"Landing into Suggest Station List");
 		Suggest_Station_List_Page_Objects.SSMenu.click();
 		Thread.sleep(2000);
-		
-		TakesScreenshot screenshot = (TakesScreenshot) driver;
-		File sourceFile = screenshot.getScreenshotAs(OutputType.FILE);
-		File destinationFile = new File("SuggestStationList.png");
-		FileHandler.copy(sourceFile, destinationFile);
-		extenttestCase.addScreenCaptureFromPath("SuggestStationList.png");
 
+		captureScreen("SuggestStationList.png");		
 	}
-	
+
 	@Test(priority = 1)
 	public void Verifysort() throws InterruptedException
 	{
@@ -53,7 +42,7 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 		Suggest_Station_List_Page_Objects.SortPSType.click();
 		Thread.sleep(1000);
 	}
-	
+
 	@Test(priority = 2)
 	public void VerifyInvalidSearch() throws Throwable
 	{
@@ -77,7 +66,7 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 
 		Suggest_Station_List_Page_Objects.SearchField.clear();
 	}
-	
+
 	@Test(priority = 3)
 	public void VerifyValidSearchStation() throws Throwable
 	{
@@ -89,10 +78,10 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 
 		Suggest_Station_List_Page_Objects.SearchField.sendKeys(getExcelData("SStationList", 2, 1));
 		Thread.sleep(2000);
-		
+
 		Suggest_Station_List_Page_Objects.SelectStatus.sendKeys(getExcelData("SStationList", 2, 2));
 		Thread.sleep(2000);
-		
+
 		Suggest_Station_List_Page_Objects.SearchPSType.sendKeys(getExcelData("SStationList", 2, 3));
 		Thread.sleep(2000);
 
@@ -117,7 +106,7 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 		driver.navigate().refresh();
 		Thread.sleep(3000);
 	}
-	
+
 	@Test(priority = 4)
 	public void VerifyBusinessDomain() throws Throwable
 	{
@@ -131,10 +120,10 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 
 		Suggest_Station_List_Page_Objects.SelectStatus.sendKeys(getExcelData("SStationList", 3, 2));
 		Thread.sleep(2000);
-		
+
 		Suggest_Station_List_Page_Objects.SearchPSType.sendKeys(getExcelData("SStationList", 3, 4));
 		Thread.sleep(2000);
-		
+
 		Suggest_Station_List_Page_Objects.SearchPSType.sendKeys(getExcelData("SStationList", 3, 3));
 		Thread.sleep(2000);
 
@@ -145,7 +134,7 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 		String PSTypeResult = Suggest_Station_List_Page_Objects.PSTypeResult.getText();
 		System.out.println(PSTypeResult);
 		Thread.sleep(2000);
-		
+
 		if(BDomainResult.contentEquals(getExcelData("SStationList", 3, 1)) && StatusResult.contentEquals(getExcelData("SStationList", 3, 2))
 				&& PSTypeResult.contentEquals(getExcelData("SStationList", 3, 3)))
 		{
@@ -158,7 +147,7 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 		Thread.sleep(2000);
 		Suggest_Station_List_Page_Objects.SearchField.clear();
 	}
-	
+
 	@Test(priority = 5)
 	public void VerifyParentCompany() throws Throwable
 	{
@@ -169,13 +158,13 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 
 		Suggest_Station_List_Page_Objects.SearchField.sendKeys(getExcelData("SStationList", 4, 1));
 		Thread.sleep(2000);
-		
+
 		Suggest_Station_List_Page_Objects.SelectStatus.sendKeys(getExcelData("SStationList", 4, 2));
 		Thread.sleep(2000);
-		
+
 		Suggest_Station_List_Page_Objects.SearchPSType.sendKeys(getExcelData("SStationList", 4, 4));
 		Thread.sleep(2000);
-		
+
 		Suggest_Station_List_Page_Objects.SearchPSType.sendKeys(getExcelData("SStationList", 4, 3));
 		Thread.sleep(2000);
 
@@ -186,7 +175,7 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 		String PSTypeResult = Suggest_Station_List_Page_Objects.PSTypeResult.getText();
 		System.out.println(PSTypeResult);
 		Thread.sleep(2000);
-		
+
 		if(PCompanyResult.contentEquals(getExcelData("SStationList", 4, 1)) && StatusResult.contentEquals(getExcelData("SStationList", 4, 2))
 				&& PSTypeResult.contentEquals(getExcelData("SStationList", 4, 3)))
 		{
@@ -196,7 +185,7 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 		{
 			extenttestCase.log(Status.INFO, "Parent Company Search Validation Failed");
 		}
-		
+
 		Thread.sleep(2000);
 		driver.navigate().refresh();
 		Thread.sleep(5000);
@@ -208,13 +197,13 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 		String StatusResult ="";
 		extenttestCase.log(Status.INFO,"Verifying status drop down");
 		Thread.sleep(2000);
-		
+
 		Suggest_Station_List_Page_Objects.SelectStatus.sendKeys(getExcelData("SStationList",19, 0));
 		Thread.sleep(3000);
-		
+
 		StatusResult = Suggest_Station_List_Page_Objects.StatusResult.getText();
 		System.out.println(StatusResult + getExcelData("SStationList",19, 0));
-		
+
 		if(StatusResult.contentEquals(getExcelData("SStationList", 19, 0)))
 		{
 			extenttestCase.log(Status.PASS, "Status (Pending) Validation Done Successfully");
@@ -224,13 +213,13 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 			extenttestCase.log(Status.FAIL, "Status Validation Failed");
 		}		
 		Thread.sleep(3000);
-		
+
 		Suggest_Station_List_Page_Objects.SelectStatus.sendKeys(getExcelData("SStationList", 20, 0));
 		Thread.sleep(3000);
-			
+
 		StatusResult = Suggest_Station_List_Page_Objects.StatusResult.getText();
 		System.out.println(StatusResult + getExcelData("SStationList",20, 0));
-		
+
 		if(StatusResult.contentEquals(getExcelData("SStationList", 20, 0)))
 		{
 			extenttestCase.log(Status.PASS, "Status (In Process) Validation Done Successfully");
@@ -240,13 +229,13 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 			extenttestCase.log(Status.FAIL, "Status Validation Failed");
 		}
 		Thread.sleep(3000);
-		
+
 		Suggest_Station_List_Page_Objects.SelectStatus.sendKeys(getExcelData("SStationList", 21, 0));
 		Thread.sleep(3000);
-		
+
 		StatusResult = Suggest_Station_List_Page_Objects.StatusResult.getText();
 		System.out.println(StatusResult + getExcelData("SStationList",21, 0));
-		
+
 		if(StatusResult.contentEquals(getExcelData("SStationList", 21, 0)))
 		{
 			extenttestCase.log(Status.PASS, "Status (Not Considered) Validation Done Successfully");
@@ -256,14 +245,14 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 			extenttestCase.log(Status.FAIL, "Status Validation Failed");
 		}
 		Thread.sleep(3000);
-		
+
 		Suggest_Station_List_Page_Objects.SelectStatus.sendKeys(getExcelData("SStationList", 22, 0));
 		Thread.sleep(3000);
-		
+
 		StatusResult = Suggest_Station_List_Page_Objects.StatusResult.getText();
 		System.out.println(StatusResult + getExcelData("SStationList",22, 0));
-		
-		
+
+
 		if(StatusResult.contentEquals(getExcelData("SStationList", 22, 0)))
 		{
 			extenttestCase.log(Status.PASS, "Status (Consent Received) Validation Done Successfully");
@@ -273,13 +262,13 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 			extenttestCase.log(Status.FAIL, "Status Validation Failed");
 		}
 		Thread.sleep(3000);
-		
+
 		Suggest_Station_List_Page_Objects.SelectStatus.sendKeys(getExcelData("SStationList", 23, 0));
 		Thread.sleep(3000);
-		
+
 		StatusResult = Suggest_Station_List_Page_Objects.StatusResult.getText();
 		System.out.println(StatusResult + getExcelData("SStationList",23, 0));
-		
+
 		if(StatusResult.contentEquals(getExcelData("SStationList", 23, 0)))
 		{
 			extenttestCase.log(Status.PASS, "Status (Verified) Validation Done Successfully");
@@ -289,7 +278,7 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 			extenttestCase.log(Status.FAIL, "Status Validation Failed");
 		}
 		Thread.sleep(3000);
-		
+
 		driver.navigate().refresh();
 	}
 	@Test(priority = 7)
@@ -298,13 +287,13 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 		String StatusResult ="";
 		extenttestCase.log(Status.INFO,"Verifying PS Type drop down");
 		Thread.sleep(2000);
-		
+
 		Suggest_Station_List_Page_Objects.SearchPSType.sendKeys(getExcelData("SStationList",19, 1));
 		Thread.sleep(3000);
-		
+
 		StatusResult = Suggest_Station_List_Page_Objects.PSTypeResult.getText();
 		System.out.println(StatusResult + getExcelData("SStationList",19, 1));
-		
+
 		if(StatusResult.contentEquals(getExcelData("SStationList", 19, 1)))
 		{
 			extenttestCase.log(Status.PASS, "PS Type (PS I) Validation Done Successfully");
@@ -314,13 +303,13 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 			extenttestCase.log(Status.FAIL, "PS Type Validation Failed");
 		}		
 		Thread.sleep(3000);
-		
+
 		Suggest_Station_List_Page_Objects.SearchPSType.sendKeys(getExcelData("SStationList", 20, 1));
 		Thread.sleep(3000);
-			
+
 		StatusResult = Suggest_Station_List_Page_Objects.PSTypeResult.getText();
 		System.out.println(StatusResult + getExcelData("SStationList",20, 1));
-		
+
 		if(StatusResult.contentEquals(getExcelData("SStationList", 20, 1)))
 		{
 			extenttestCase.log(Status.PASS, "PS Type (PS II) Validation Done Successfully");
