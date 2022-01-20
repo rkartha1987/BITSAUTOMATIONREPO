@@ -48,8 +48,7 @@ public class CommonFunctions{
 	static XSSFSheet sheet;
 	public static ScreenRecorder screenRecorder;
 	public String name;
-	
-	
+		
 	Logger logger = Logger.getLogger(CommonFunctions.class);	
 	
 	public Properties loadpropertyFile() throws IOException
@@ -119,15 +118,15 @@ public class CommonFunctions{
 		return data;
 	}
 
-	public static int getExcelData1(String sheetName, int rowNum, int colNum) throws Throwable
+	public static int getExcelNumericData(String sheetName, int rowNum, int colNum) throws Throwable
 	{
 		FileInputStream fis = new FileInputStream(properties.getProperty("FileInputStream"));
 		Workbook wb = WorkbookFactory.create(fis);
 		Sheet sh = wb.getSheet(sheetName);
 		Row row = sh.getRow(rowNum);
-		int data1 = (int) row.getCell(colNum).getNumericCellValue();
+		int data = (int) row.getCell(colNum).getNumericCellValue();
 		wb.close();
-		return data1;
+		return data;
 	}
 
 	public static int getCellCount(String sheetName) throws Throwable 
