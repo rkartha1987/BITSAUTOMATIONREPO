@@ -114,7 +114,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String TotalCount=Dashboard_Common_Objects.TotalStudentcount.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",4,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",4,1));
 		//System.out.println(TotalCount);
 		Thread.sleep(2000);
 
@@ -135,7 +135,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String AllottedStud=Dashboard_Common_Objects.AllottedStudent.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",5,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",5,1));
 		//System.out.println(AllottedStud);
 		Thread.sleep(2000);
 
@@ -145,7 +145,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		}
 		else
 		{
-			extenttestCase.log(Status.FAIL, AllottedStud+ " Validation Failed: "+getExcelData("Dashboard",5,1).toString());
+			extenttestCase.log(Status.FAIL, AllottedStud+ " Validation Failed: "+counter);
 		}	
 	}
 
@@ -156,7 +156,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String AllottedOrgCount=Dashboard_Common_Objects.AllottedOrgcount.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",6,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",6,1));
 		//System.out.println(AllottedOrgCount);
 		Thread.sleep(2000);
 
@@ -166,7 +166,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		}
 		else
 		{
-			extenttestCase.log(Status.FAIL, AllottedOrgCount+ " Validation Failed "+ getExcelData("Dashboard",6,1).toString());
+			extenttestCase.log(Status.FAIL, AllottedOrgCount+ " Validation Failed "+ counter);
 		}	    	
 	}
 	@Test(priority = 9)
@@ -177,7 +177,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String OrgAnnouncedcount=Dashboard_Common_Objects.OrgAnnouncedcount.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",7,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",7,1));
 		//System.out.println(OrgAnnouncedcount);
 		Thread.sleep(2000);
 
@@ -198,7 +198,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Corecount=Dashboard_Common_Objects.Corecount.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",8,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",8,1));
 		//System.out.println(Corecount);
 		Thread.sleep(2000);
 
@@ -219,7 +219,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String NonCorecount=Dashboard_Common_Objects.NonCorecount.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",9,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",9,1));
 		//System.out.println(NonCorecount);
 		Thread.sleep(2000);
 
@@ -240,7 +240,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Prefercount=Dashboard_Common_Objects.Prefercount.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",10,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",10,1));
 		//System.out.println(Prefercount);
 		Thread.sleep(2000);
 
@@ -260,7 +260,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Prefercount=Dashboard_Common_Objects.StationsParticipated.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",11,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",11,1));
 		//System.out.println(Prefercount);
 		Thread.sleep(2000);
 
@@ -280,7 +280,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Prefercount=Dashboard_Common_Objects.StationAnnounced.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",12,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",12,1));
 		//System.out.println(Prefercount);
 		Thread.sleep(2000);
 
@@ -300,7 +300,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Prefercount=Dashboard_Common_Objects.StationAllotted.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",13,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",13,1));
 		//System.out.println(Prefercount);
 		Thread.sleep(2000);
 
@@ -320,7 +320,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Prefercount=Dashboard_Common_Objects.TotalRqmts.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",14,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",14,1));
 		//System.out.println(Prefercount);
 		Thread.sleep(2000);
 
@@ -340,7 +340,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Prefercount=Dashboard_Common_Objects.TotalAllotted.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",15,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",15,1));
 		//System.out.println(Prefercount);
 		Thread.sleep(2000);
 
@@ -364,7 +364,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 
 		captureScreen("Admin - Stipend.png");
 		String Prefercount=Dashboard_Common_Objects.Highest.getText().toString();
-		String counter=Integer.toString(getExcelData1("Dashboard",16,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",16,1));
 		//System.out.println(Prefercount);
 		Thread.sleep(2000);
 
@@ -385,7 +385,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Prefercount=Dashboard_Common_Objects.Average.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",17,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",17,1));
 		//System.out.println(Prefercount);
 		Thread.sleep(2000);
 
@@ -406,7 +406,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Prefercount=Dashboard_Common_Objects.Median.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",18,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",18,1));
 		//System.out.println(Prefercount);
 		Thread.sleep(2000);
 
@@ -427,7 +427,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Prefercount=Dashboard_Common_Objects.Lowest.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",19,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",19,1));
 		//System.out.println(Prefercount);
 		Thread.sleep(2000);
 
@@ -451,7 +451,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 		captureScreen("Admin - Faculty.png");
 		String Prefercount=Dashboard_Common_Objects.FacultyTotal.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",20,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",20,1));
 		//System.out.println("Faculty Total: "+Prefercount);
 		//System.out.println("Excel Count: "+Prefercount);
 		Thread.sleep(2000);
@@ -473,7 +473,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Prefercount=Dashboard_Common_Objects.FacultyOnCampus.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",21,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",21,1));
 		//System.out.println("Faculty Total: "+Prefercount);
 		//System.out.println("Excel Count: "+Prefercount);
 		Thread.sleep(2000);
@@ -495,7 +495,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Prefercount=Dashboard_Common_Objects.FacultyOffCampus.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",22,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",22,1));
 		//System.out.println("Faculty Total: "+Prefercount);
 		//System.out.println("Excel Count: "+Prefercount);
 		Thread.sleep(2000);
@@ -517,7 +517,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Prefercount=Dashboard_Common_Objects.FacultyAllotted.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",23,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",23,1));
 		//System.out.println("Faculty Total: "+Prefercount);
 		//System.out.println("Excel Count: "+Prefercount);
 		Thread.sleep(2000);
@@ -539,7 +539,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 		Thread.sleep(2000);
 
 		String Prefercount=Dashboard_Common_Objects.FacultyAllotted.getText();
-		String counter=Integer.toString(getExcelData1("Dashboard",23,1));
+		String counter=Integer.toString(getExcelNumericData("Dashboard",23,1));
 		//System.out.println("Faculty Total: "+Prefercount);
 		//System.out.println("Excel Count: "+Prefercount);
 		Thread.sleep(2000);

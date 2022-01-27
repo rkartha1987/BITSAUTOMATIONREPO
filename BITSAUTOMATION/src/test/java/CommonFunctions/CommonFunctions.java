@@ -2,17 +2,15 @@ package CommonFunctions;
 
 import java.io.File;
 import java.io.FileInputStream;
-//import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
-
-//import org.apache.batik.css.engine.value.Value;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.poi.ss.usermodel.Cell;
+
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -22,16 +20,13 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.monte.screenrecorder.ScreenRecorder;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-//import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterSuite;
-
 import org.testng.annotations.BeforeSuite;
-
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;

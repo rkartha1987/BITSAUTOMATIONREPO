@@ -129,10 +129,10 @@ public class Edit_Profile extends CommonFunctions{
 		/*Profile_Page_Objects.fldOffclEmail.sendKeys(getExcelData("Fields", 1,5));Thread.sleep(2000);	*/
 
 		Profile_Page_Objects.fldMobNo.clear();Thread.sleep(2000);
-		Profile_Page_Objects.fldMobNo.sendKeys(String.valueOf(getExcelData1("Fields", 1, 6)));Thread.sleep(2000);	
+		Profile_Page_Objects.fldMobNo.sendKeys(String.valueOf(getExcelNumericData("Fields", 1, 6)));Thread.sleep(2000);	
 
 		Profile_Page_Objects.fldLandLine.clear();Thread.sleep(2000);
-		Profile_Page_Objects.fldLandLine.sendKeys(String.valueOf(getExcelData1("Fields", 1,7)));Thread.sleep(2000);	
+		Profile_Page_Objects.fldLandLine.sendKeys(String.valueOf(getExcelNumericData("Fields", 1,7)));Thread.sleep(2000);	
 
 		Profile_Page_Objects.fldAddr1.clear();Thread.sleep(2000);
 		Profile_Page_Objects.fldAddr1.sendKeys(getExcelData("Fields", 1,8));Thread.sleep(2000);	
@@ -147,13 +147,13 @@ public class Edit_Profile extends CommonFunctions{
 		Profile_Page_Objects.fldCity.sendKeys(getExcelData("Fields", 1,12));Thread.sleep(2000);
 
 		Profile_Page_Objects.fldPin.clear();Thread.sleep(2000);
-		Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelData1("Fields", 1,13)));Thread.sleep(2000);
+		Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelNumericData("Fields", 1,13)));Thread.sleep(2000);
 
 		Profile_Page_Objects.fldHomeTown.clear();Thread.sleep(2000);
 		Profile_Page_Objects.fldHomeTown.sendKeys(getExcelData("Fields", 1,14));Thread.sleep(2000);
-
-		Profile_Page_Objects.btnSave.click();
 		captureScreen("savewithchanges.png");
+		Profile_Page_Objects.btnSave.click();
+		captureScreen("savewithchanges1.png");
 		extenttestCase.log(Status.PASS, "Succesfully Saved");		
 	}
 
@@ -256,8 +256,10 @@ public class Edit_Profile extends CommonFunctions{
 
 		if (!Profile_Page_Objects.fldGrpLeader.isSelected())
 		{				
-			Profile_Page_Objects.fldGrpLeader.click();Thread.sleep(5000);					
-			Profile_Page_Objects.btnSave.click();Thread.sleep(3500);	
+			Profile_Page_Objects.fldGrpLeader.click();Thread.sleep(5000);	
+			captureScreen("GroupLeaderValidation.png");
+			Profile_Page_Objects.btnSave.click();Thread.sleep(3500);
+			captureScreen("GroupLeaderValidation1.png");
 			String text=driver.findElement(By.cssSelector(".toast-message")).getText().toString();
 
 			if (text.contains("Error: Group leader already exists for Department : "))

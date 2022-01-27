@@ -2,140 +2,140 @@
 <testng-results ignored="4" total="34" passed="30" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-31T20:00:04 IST" name="BITS Automation" finished-at="2021-12-31T20:02:31 IST" duration-ms="146442">
+  <suite started-at="2022-01-21T10:11:17 IST" name="BITS Automation" finished-at="2022-01-21T10:13:41 IST" duration-ms="144042">
     <groups>
     </groups>
-    <test started-at="2021-12-31T20:00:04 IST" name="Login" finished-at="2021-12-31T20:02:31 IST" duration-ms="146442">
+    <test started-at="2022-01-21T10:11:17 IST" name="Login" finished-at="2022-01-21T10:13:41 IST" duration-ms="144042">
       <class name="testCases.Login">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCases.Login@5149d738]" started-at="2021-12-31T19:59:32 IST" name="launchBrowser" finished-at="2021-12-31T20:00:04 IST" duration-ms="31773" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCases.Login@793f29ff]" started-at="2022-01-21T10:11:08 IST" name="launchBrowser" finished-at="2022-01-21T10:11:17 IST" duration-ms="9249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="ValidUserandInvalidPass()[pri:0, instance:testCases.Login@5149d738]" started-at="2021-12-31T20:00:04 IST" name="ValidUserandInvalidPass" finished-at="2021-12-31T20:00:04 IST" duration-ms="132" status="PASS">
+        <test-method signature="ValidUserandInvalidPass()[pri:0, instance:testCases.Login@793f29ff]" started-at="2022-01-21T10:11:17 IST" name="ValidUserandInvalidPass" finished-at="2022-01-21T10:11:17 IST" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidUserandInvalidPass -->
-        <test-method signature="InvalidUserIdandPassword()[pri:1, instance:testCases.Login@5149d738]" started-at="2021-12-31T20:00:04 IST" name="InvalidUserIdandPassword" finished-at="2021-12-31T20:00:19 IST" duration-ms="14259" status="PASS">
+        <test-method signature="InvalidUserIdandPassword()[pri:1, instance:testCases.Login@793f29ff]" started-at="2022-01-21T10:11:17 IST" name="InvalidUserIdandPassword" finished-at="2022-01-21T10:11:30 IST" duration-ms="12198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidUserIdandPassword -->
-        <test-method signature="ValidUserIdandPassword()[pri:2, instance:testCases.Login@5149d738]" started-at="2021-12-31T20:00:19 IST" name="ValidUserIdandPassword" finished-at="2021-12-31T20:00:32 IST" duration-ms="13718" status="PASS">
+        <test-method signature="ValidUserIdandPassword()[pri:2, instance:testCases.Login@793f29ff]" started-at="2022-01-21T10:11:30 IST" name="ValidUserIdandPassword" finished-at="2022-01-21T10:11:42 IST" duration-ms="12457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidUserIdandPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Login@5149d738]" started-at="2021-12-31T20:02:32 IST" name="tearDown" finished-at="2021-12-31T20:02:34 IST" duration-ms="2564" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Login@793f29ff]" started-at="2022-01-21T10:13:41 IST" name="tearDown" finished-at="2022-01-21T10:13:44 IST" duration-ms="2260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.Login -->
       <class name="testCases.Logout">
-        <test-method signature="Signout()[pri:0, instance:testCases.Logout@75437611]" started-at="2021-12-31T20:02:25 IST" name="Signout" finished-at="2021-12-31T20:02:31 IST" duration-ms="6045" status="PASS">
+        <test-method signature="Signout()[pri:0, instance:testCases.Logout@58cbafc2]" started-at="2022-01-21T10:13:36 IST" name="Signout" finished-at="2022-01-21T10:13:41 IST" duration-ms="5553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Signout -->
       </class> <!-- testCases.Logout -->
       <class name="testCases.AdminRole_Dashboard">
-        <test-method signature="ClickRecord()[pri:0, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:00:32 IST" name="ClickRecord" finished-at="2021-12-31T20:00:37 IST" duration-ms="4796" status="PASS">
+        <test-method signature="ClickRecord()[pri:0, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:11:42 IST" name="ClickRecord" finished-at="2022-01-21T10:11:47 IST" duration-ms="4805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickRecord -->
-        <test-method signature="VerifyDashboardpage()[pri:1, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:00:37 IST" name="VerifyDashboardpage" finished-at="2021-12-31T20:00:41 IST" duration-ms="4038" status="PASS">
+        <test-method signature="VerifyDashboardpage()[pri:1, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:11:47 IST" name="VerifyDashboardpage" finished-at="2022-01-21T10:11:51 IST" duration-ms="4077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyDashboardpage -->
-        <test-method signature="VerifyPracticeSchool()[pri:2, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:00:41 IST" name="VerifyPracticeSchool" finished-at="2021-12-31T20:00:45 IST" duration-ms="4174" status="PASS">
+        <test-method signature="VerifyPracticeSchool()[pri:2, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:11:51 IST" name="VerifyPracticeSchool" finished-at="2022-01-21T10:11:55 IST" duration-ms="4161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyPracticeSchool -->
-        <test-method signature="VerifySemester()[pri:3, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:00:45 IST" name="VerifySemester" finished-at="2021-12-31T20:00:50 IST" duration-ms="4294" status="PASS">
+        <test-method signature="VerifySemester()[pri:3, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:11:55 IST" name="VerifySemester" finished-at="2022-01-21T10:11:59 IST" duration-ms="4274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySemester -->
-        <test-method signature="VerifyCurrentBatch()[pri:4, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:00:50 IST" name="VerifyCurrentBatch" finished-at="2021-12-31T20:00:54 IST" duration-ms="4321" status="PASS">
+        <test-method signature="VerifyCurrentBatch()[pri:4, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:11:59 IST" name="VerifyCurrentBatch" finished-at="2022-01-21T10:12:04 IST" duration-ms="4196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCurrentBatch -->
-        <test-method signature="VerifyTotalStudents()[pri:5, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:00:54 IST" name="VerifyTotalStudents" finished-at="2021-12-31T20:00:58 IST" duration-ms="4193" status="PASS">
+        <test-method signature="VerifyTotalStudents()[pri:5, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:12:04 IST" name="VerifyTotalStudents" finished-at="2022-01-21T10:12:08 IST" duration-ms="4121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTotalStudents -->
-        <test-method signature="VerifyAllottedStudents()[pri:7, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:00:58 IST" name="VerifyAllottedStudents" finished-at="2021-12-31T20:01:02 IST" duration-ms="4129" status="PASS">
+        <test-method signature="VerifyAllottedStudents()[pri:7, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:12:08 IST" name="VerifyAllottedStudents" finished-at="2022-01-21T10:12:12 IST" duration-ms="4143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAllottedStudents -->
-        <test-method signature="VerifyAllottedOrganizations()[pri:8, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:02 IST" name="VerifyAllottedOrganizations" finished-at="2021-12-31T20:01:07 IST" duration-ms="4149" status="PASS">
+        <test-method signature="VerifyAllottedOrganizations()[pri:8, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:12:12 IST" name="VerifyAllottedOrganizations" finished-at="2022-01-21T10:12:16 IST" duration-ms="4101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAllottedOrganizations -->
-        <test-method signature="VerifyOrganizationsAnnounced()[pri:9, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:07 IST" name="VerifyOrganizationsAnnounced" finished-at="2021-12-31T20:01:11 IST" duration-ms="4122" status="PASS">
+        <test-method signature="VerifyOrganizationsAnnounced()[pri:9, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:12:16 IST" name="VerifyOrganizationsAnnounced" finished-at="2022-01-21T10:12:20 IST" duration-ms="4138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyOrganizationsAnnounced -->
-        <test-method signature="VerifyCoreDiscipline()[pri:10, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:11 IST" name="VerifyCoreDiscipline" finished-at="2021-12-31T20:01:15 IST" duration-ms="4110" status="PASS">
+        <test-method signature="VerifyCoreDiscipline()[pri:10, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:12:20 IST" name="VerifyCoreDiscipline" finished-at="2022-01-21T10:12:24 IST" duration-ms="4103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCoreDiscipline -->
-        <test-method signature="VerifyNonCoreDiscipline()[pri:11, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:15 IST" name="VerifyNonCoreDiscipline" finished-at="2021-12-31T20:01:19 IST" duration-ms="4087" status="PASS">
+        <test-method signature="VerifyNonCoreDiscipline()[pri:11, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:12:24 IST" name="VerifyNonCoreDiscipline" finished-at="2022-01-21T10:12:28 IST" duration-ms="4081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyNonCoreDiscipline -->
-        <test-method signature="VerifyTop5Preferences()[pri:12, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:19 IST" name="VerifyTop5Preferences" finished-at="2021-12-31T20:01:23 IST" duration-ms="4116" status="PASS">
+        <test-method signature="VerifyTop5Preferences()[pri:12, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:12:28 IST" name="VerifyTop5Preferences" finished-at="2022-01-21T10:12:32 IST" duration-ms="4132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTop5Preferences -->
-        <test-method signature="VerifyStationsParticipated()[pri:13, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:23 IST" name="VerifyStationsParticipated" finished-at="2021-12-31T20:01:27 IST" duration-ms="4107" status="PASS">
+        <test-method signature="VerifyStationsParticipated()[pri:13, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:12:32 IST" name="VerifyStationsParticipated" finished-at="2022-01-21T10:12:37 IST" duration-ms="4104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyStationsParticipated -->
-        <test-method signature="VerifyAnnouncedStations()[pri:14, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:27 IST" name="VerifyAnnouncedStations" finished-at="2021-12-31T20:01:31 IST" duration-ms="4092" status="PASS">
+        <test-method signature="VerifyAnnouncedStations()[pri:14, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:12:37 IST" name="VerifyAnnouncedStations" finished-at="2022-01-21T10:12:41 IST" duration-ms="4078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAnnouncedStations -->
-        <test-method signature="VerifyStationsAllotted()[pri:15, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:31 IST" name="VerifyStationsAllotted" finished-at="2021-12-31T20:01:35 IST" duration-ms="4090" status="PASS">
+        <test-method signature="VerifyStationsAllotted()[pri:15, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:12:41 IST" name="VerifyStationsAllotted" finished-at="2022-01-21T10:12:45 IST" duration-ms="4108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyStationsAllotted -->
-        <test-method signature="VerifyTotalRequirements()[pri:16, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:35 IST" name="VerifyTotalRequirements" finished-at="2021-12-31T20:01:39 IST" duration-ms="4107" status="PASS">
+        <test-method signature="VerifyTotalRequirements()[pri:16, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:12:45 IST" name="VerifyTotalRequirements" finished-at="2022-01-21T10:12:49 IST" duration-ms="4117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTotalRequirements -->
-        <test-method signature="VerifyTotalAllotted()[pri:17, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:39 IST" name="VerifyTotalAllotted" finished-at="2021-12-31T20:01:43 IST" duration-ms="4125" status="PASS">
+        <test-method signature="VerifyTotalAllotted()[pri:17, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:12:49 IST" name="VerifyTotalAllotted" finished-at="2022-01-21T10:12:53 IST" duration-ms="4130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTotalAllotted -->
-        <test-method signature="VerifyStipendHighest()[pri:18, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:43 IST" name="VerifyStipendHighest" finished-at="2021-12-31T20:01:50 IST" duration-ms="6171" status="PASS">
+        <test-method signature="VerifyStipendHighest()[pri:18, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:12:53 IST" name="VerifyStipendHighest" finished-at="2022-01-21T10:13:00 IST" duration-ms="6968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyStipendHighest -->
-        <test-method signature="VerifyStipendAverage()[pri:19, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:50 IST" name="VerifyStipendAverage" finished-at="2021-12-31T20:01:54 IST" duration-ms="4176" status="PASS">
+        <test-method signature="VerifyStipendAverage()[pri:19, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:13:00 IST" name="VerifyStipendAverage" finished-at="2022-01-21T10:13:04 IST" duration-ms="4121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyStipendAverage -->
-        <test-method signature="VerifyStipendMedian()[pri:19, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:54 IST" name="VerifyStipendMedian" finished-at="2021-12-31T20:01:58 IST" duration-ms="4171" status="PASS">
+        <test-method signature="VerifyStipendMedian()[pri:19, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:13:04 IST" name="VerifyStipendMedian" finished-at="2022-01-21T10:13:08 IST" duration-ms="4105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyStipendMedian -->
-        <test-method signature="VerifyStipendLowest()[pri:20, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:01:58 IST" name="VerifyStipendLowest" finished-at="2021-12-31T20:02:02 IST" duration-ms="4112" status="PASS">
+        <test-method signature="VerifyStipendLowest()[pri:20, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:13:08 IST" name="VerifyStipendLowest" finished-at="2022-01-21T10:13:12 IST" duration-ms="4142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyStipendLowest -->
-        <test-method signature="VerifyFacultyTotal()[pri:21, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:02:02 IST" name="VerifyFacultyTotal" finished-at="2021-12-31T20:02:08 IST" duration-ms="6164" status="PASS">
+        <test-method signature="VerifyFacultyTotal()[pri:21, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:13:12 IST" name="VerifyFacultyTotal" finished-at="2022-01-21T10:13:19 IST" duration-ms="6970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyFacultyTotal -->
-        <test-method signature="VerifyFacultyOnCampus()[pri:22, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:02:08 IST" name="VerifyFacultyOnCampus" finished-at="2021-12-31T20:02:12 IST" duration-ms="4089" status="PASS">
+        <test-method signature="VerifyFacultyOnCampus()[pri:22, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:13:19 IST" name="VerifyFacultyOnCampus" finished-at="2022-01-21T10:13:23 IST" duration-ms="4133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyFacultyOnCampus -->
-        <test-method signature="VerifyFacultyOffCampus()[pri:23, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:02:12 IST" name="VerifyFacultyOffCampus" finished-at="2021-12-31T20:02:16 IST" duration-ms="4084" status="PASS">
+        <test-method signature="VerifyFacultyOffCampus()[pri:23, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:13:23 IST" name="VerifyFacultyOffCampus" finished-at="2022-01-21T10:13:28 IST" duration-ms="4099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyFacultyOffCampus -->
-        <test-method signature="VerifyFacultyAllotted()[pri:24, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:02:16 IST" name="VerifyFacultyAllotted" finished-at="2021-12-31T20:02:21 IST" duration-ms="4080" status="PASS">
+        <test-method signature="VerifyFacultyAllotted()[pri:24, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:13:28 IST" name="VerifyFacultyAllotted" finished-at="2022-01-21T10:13:32 IST" duration-ms="4126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyFacultyAllotted -->
-        <test-method signature="VerifyFacultyAvailable()[pri:25, instance:testCases.AdminRole_Dashboard@742ff096]" started-at="2021-12-31T20:02:21 IST" name="VerifyFacultyAvailable" finished-at="2021-12-31T20:02:25 IST" duration-ms="4077" status="PASS">
+        <test-method signature="VerifyFacultyAvailable()[pri:25, instance:testCases.AdminRole_Dashboard@1ca3b418]" started-at="2022-01-21T10:13:32 IST" name="VerifyFacultyAvailable" finished-at="2022-01-21T10:13:36 IST" duration-ms="4116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyFacultyAvailable -->

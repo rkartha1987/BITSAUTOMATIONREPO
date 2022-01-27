@@ -108,7 +108,7 @@ static Logger logger = Logger.getLogger(FacultyRole_Suggest_Station_Detail.class
 		Faculty_Suggest_Station_Detail_Objects.StationType.sendKeys(getExcelData("SStationDetail", 3, 2));
 		Thread.sleep(2000);
 		
-		Faculty_Suggest_Station_Detail_Objects.PSProgram.sendKeys(String.valueOf(getExcelData1("SStationDetail", 3, 3)));
+		Faculty_Suggest_Station_Detail_Objects.PSProgram.sendKeys(String.valueOf(getExcelNumericData("SStationDetail", 3, 3)));
 		Thread.sleep(2000);
 		
 		Faculty_Suggest_Station_Detail_Objects.BDomain.sendKeys(getExcelData("SStationDetail", 3, 4));
@@ -230,7 +230,7 @@ static Logger logger = Logger.getLogger(FacultyRole_Suggest_Station_Detail.class
 			Faculty_Suggest_Station_Detail_Objects.StationType.sendKeys(getExcelData("SStationDetail", 4, 2));
 			Thread.sleep(2000);
 			
-			Faculty_Suggest_Station_Detail_Objects.PSProgram.sendKeys(String.valueOf(getExcelData1("SStationDetail", 4, 3)));
+			Faculty_Suggest_Station_Detail_Objects.PSProgram.sendKeys(String.valueOf(getExcelNumericData("SStationDetail", 4, 3)));
 			Thread.sleep(2000);
 			
 			Faculty_Suggest_Station_Detail_Objects.BDomain.sendKeys(getExcelData("SStationDetail", 4, 4));

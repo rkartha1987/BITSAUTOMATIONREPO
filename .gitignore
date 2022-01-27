@@ -1,1 +1,16 @@
 /BITSAUTOMATION/
+BITSAUTOMATION/driver/chromedriver.exe
+BITSAUTOMATION/ExtentReport.html
+BITSAUTOMATION/log/BITS_logs.log
+BITSAUTOMATION/test-output/BITS Automation/testng-failed.xml
+BITSAUTOMATION/test-output/emailable-report.html
+BITSAUTOMATION/test-output/index.html
+BITSAUTOMATION/test-output/junitreports/TEST-testCases.Login.xml
+BITSAUTOMATION/test-output/old/BITS Automation/classes.html
+BITSAUTOMATION/test-output/old/BITS Automation/methods-alphabetical.html
+BITSAUTOMATION/test-output/old/BITS Automation/methods-not-run.html
+BITSAUTOMATION/test-output/old/BITS Automation/methods.html
+BITSAUTOMATION/test-output/old/BITS Automation/toc.html
+BITSAUTOMATION/test-output/old/index.html
+BITSAUTOMATION/test-output/testng-failed.xml
+BITSAUTOMATION/test-output/testng-results.xml

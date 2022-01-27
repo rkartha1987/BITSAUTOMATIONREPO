@@ -15,9 +15,8 @@ import CommonFunctions.CommonFunctions;
 //import pageObjects.Login_Page_Objects;
 import pageObjects.Profile_Page_Objects;
 
-
 public class FacultyRole_EditProfile extends CommonFunctions{
-	
+
 	static Logger logger=Logger.getLogger(Edit_Profile.class);
 
 	@Test(priority=0)
@@ -27,16 +26,17 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		extenttestCase=extentReport.createTest("Navigate to Profile Validation");
 		logger.info("Navigating to Profile Page");		
 		PageFactory.initElements(driver, Profile_Page_Objects.class);
-		Profile_Page_Objects.mnuProfile.click();		
+		Profile_Page_Objects.mnuProfile.click();
+		captureScreen("FacultyProfile.png");
 		Thread.sleep(5000);			
 		extenttestCase.log(Status.PASS, "Successfully navigated to Profile Page");
 	}
-	
+
 	@Test(priority=1)
 	public void validateBreadCrumbs() throws Throwable
 	{
-        String bread = Profile_Page_Objects.brdCrumbs.getText();
-       System.out.println(bread);
+		String bread = Profile_Page_Objects.brdCrumbs.getText();
+		System.out.println(bread);
 		if (bread.contains("Edit Faculty")) 
 		{
 			extenttestCase.log(Status.PASS, "Bread crumbs text pass");
@@ -46,7 +46,7 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 			extenttestCase.log(Status.FAIL, "Bread crumbs text failed");
 		}
 	}
-	
+
 	@Test(priority=2)
 	public void validateCancelBtn() throws Throwable
 	{
@@ -57,8 +57,9 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		Profile_Page_Objects.btnCancel.click();		
 		Thread.sleep(5000);			
 		extenttestCase.log(Status.PASS, "Cancel button click validated");
+		captureScreen("Validatecancelbutton.png");
 	}
-	
+
 	@Test(priority=3)
 	public void validateCloseBtnPopup() throws Throwable
 	{
@@ -67,10 +68,11 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		logger.info("Clicking Close Pop up");		
 		PageFactory.initElements(driver, Profile_Page_Objects.class);
 		Profile_Page_Objects.btnClose.click();		
+		captureScreen("Validateclosebutton.png");
 		Thread.sleep(5000);			
 		extenttestCase.log(Status.PASS, "Successfully closed pop up on close button click");
 	}
-	
+
 	@Test(priority=4)
 	public void validateOkayBtnPopup() throws Throwable
 	{
@@ -78,7 +80,7 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		extenttestCase=extentReport.createTest("Click cancel button test");
 		logger.info("Clicking Okay button");		
 		PageFactory.initElements(driver, Profile_Page_Objects.class);
-			
+
 		Profile_Page_Objects.btnCancel.click();		
 		Thread.sleep(3000);			
 		extenttestCase.log(Status.INFO, "Successfully opened pop up ");
@@ -87,11 +89,12 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		extenttestCase=extentReport.createTest("Click Okay button test");
 		logger.info("Clicking Okay Button");		
 		PageFactory.initElements(driver, Profile_Page_Objects.class);
-		Profile_Page_Objects.btnOkay.click();		
+		Profile_Page_Objects.btnOkay.click();	
+		captureScreen("ValidateOkayButton.png");
 		Thread.sleep(3000);			
 		extenttestCase.log(Status.PASS, "Successfully Closed pop up on Okay button click ");
 	}
-	
+
 	@Test(priority=5)
 	public void validateNavigatetoProfile1() throws Throwable
 	{
@@ -99,11 +102,12 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		extenttestCase=extentReport.createTest("Navigate to Profile Validation");
 		logger.info("Navigating to Profile Page");		
 		PageFactory.initElements(driver, Profile_Page_Objects.class);
-		Profile_Page_Objects.mnuProfile.click();		
+		Profile_Page_Objects.mnuProfile.click();
+		captureScreen("FacultyProfile.png");
 		Thread.sleep(5000);			
 		extenttestCase.log(Status.PASS, "Re-navigated to Profile Page");
 	}
-	
+
 	@Test(priority=6)
 	public void validateSaveBtnWithoutChngs() throws Throwable
 	{
@@ -111,11 +115,12 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		extenttestCase=extentReport.createTest("Saving Profile without changes");
 		logger.info("Saving Profile without changes");		
 		PageFactory.initElements(driver, Profile_Page_Objects.class);
-		Profile_Page_Objects.btnSave.click();		
+		Profile_Page_Objects.btnSave.click();	
+		captureScreen("SaveFacultywithoutchanges.png");
 		Thread.sleep(5000);			
 		extenttestCase.log(Status.PASS, "Successfully Saved Profile without changes");
 	}	
-	
+
 	@Test(priority=7)
 	public void validateSaveBtnWithChngs() throws Throwable
 	{
@@ -125,79 +130,80 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		PageFactory.initElements(driver, Profile_Page_Objects.class);
 		Profile_Page_Objects.fldFacultyName.clear();
 		Thread.sleep(2000);
-		
+
 		Profile_Page_Objects.fldFacultyName.sendKeys(getExcelData("Login", 2, 3));		
 		Thread.sleep(2000);	
-		
+
 		Profile_Page_Objects.fldGender.sendKeys(getExcelData("Fields", 1, 0));
 		Thread.sleep(2000);		
-		
+
 		Profile_Page_Objects.fldDept.sendKeys(getExcelData("Fields", 1, 1));
 		Thread.sleep(2000);
-		
+
 		Profile_Page_Objects.fldAreaOfSpc.clear();
 		Thread.sleep(2000);
 		Profile_Page_Objects.fldAreaOfSpc.sendKeys(getExcelData("Fields", 1, 2));
 		Thread.sleep(2000);
-		
+
 		Profile_Page_Objects.fldCampus.sendKeys(getExcelData("Fields", 1, 3));
 		Thread.sleep(2000);
-		
+
 		Profile_Page_Objects.fldPrsnlEmail.clear();
 		Thread.sleep(2000);
 		Profile_Page_Objects.fldPrsnlEmail.sendKeys(getExcelData("Fields", 1,4));
 		Thread.sleep(2000);	
-		
+
 		/*Profile_Page_Objects.fldOffclEmail.sendKeys(getExcelData("Fields", 1,5));
 		Thread.sleep(2000);	*/
-		
+
 		Profile_Page_Objects.fldMobNo.clear();
 		Thread.sleep(2000);
-		Profile_Page_Objects.fldMobNo.sendKeys(String.valueOf(getExcelData1("Fields", 1, 6)));
+		Profile_Page_Objects.fldMobNo.sendKeys(String.valueOf(getExcelNumericData("Fields", 1, 6)));
 		Thread.sleep(2000);	
-		
+
 		Profile_Page_Objects.fldLandLine.clear();
 		Thread.sleep(2000);
-		Profile_Page_Objects.fldLandLine.sendKeys(String.valueOf(getExcelData1("Fields", 1,7)));
+		Profile_Page_Objects.fldLandLine.sendKeys(String.valueOf(getExcelNumericData("Fields", 1,7)));
 		Thread.sleep(2000);	
-		
+
 		Profile_Page_Objects.fldAddr1.clear();
 		Thread.sleep(2000);
 		Profile_Page_Objects.fldAddr1.sendKeys(getExcelData("Fields", 1,8));
 		Thread.sleep(2000);	
-		
+
 		Profile_Page_Objects.fldAddr2.clear();
 		Thread.sleep(2000);
-		
+
 		Profile_Page_Objects.fldAddr2.sendKeys(getExcelData("Fields", 1,9));
 		Thread.sleep(2000);			
-		
+
 		Profile_Page_Objects.fldCountry.sendKeys(getExcelData("Fields", 2,10));
 		Thread.sleep(2000);
-		
+
 		Profile_Page_Objects.fldCountry.sendKeys(getExcelData("Fields", 1,10));
 		Thread.sleep(2000);
-		
+
 		Profile_Page_Objects.fldState.sendKeys(getExcelData("Fields", 1,11));
 		Thread.sleep(2000);
-		
+
 		Profile_Page_Objects.fldCity.sendKeys(getExcelData("Fields", 1,12));
 		Thread.sleep(2000);
-		
+
 		Profile_Page_Objects.fldPin.clear();
 		Thread.sleep(2000);
-		Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelData1("Fields", 1,13)));
+		Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelNumericData("Fields", 1,13)));
 		Thread.sleep(2000);
-		
+
 		Profile_Page_Objects.fldHomeTown.clear();
 		Thread.sleep(2000);
 		Profile_Page_Objects.fldHomeTown.sendKeys(getExcelData("Fields", 1,14));
 		Thread.sleep(2000);
-		
+
 		Profile_Page_Objects.btnSave.click();
+		captureScreen("SaveFacultychanges.png");
 		extenttestCase.log(Status.PASS, "Succesfully Saved");		
 	}
-	
+
 	@Test(priority=8)
 	public void validateChangeOffclEmailId() throws Throwable
 	{
@@ -205,24 +211,25 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		extenttestCase=extentReport.createTest("Validating the Official Email Address");
 		logger.info("Updating the Official Email Address");		
 		PageFactory.initElements(driver, Profile_Page_Objects.class);
-					
+
 		Profile_Page_Objects.fldOffclEmail.clear();
 		Thread.sleep(5000);			
-		
+
 		Profile_Page_Objects.fldOffclEmail.sendKeys(getExcelData("Fields", 1, 4));	
 		Thread.sleep(5000);
-		
+
 		Profile_Page_Objects.fldOffclEmail.clear();
 		Thread.sleep(5000);	
-		
+
 		Profile_Page_Objects.fldOffclEmail.sendKeys(getExcelData("Fields", 1, 4));	
 		Thread.sleep(5000);
-		
+
 		Profile_Page_Objects.btnSave.click();
 		Thread.sleep(3500);	
-		
+		captureScreen("ChangeOfficialMail.png");
+
 		String text=driver.findElement(By.cssSelector(".toast-message")).getText().toString();
-		
+
 		if (text.contains("already registered. Can not be changed now."))
 		{
 			extenttestCase.log(Status.PASS, "Change Official email successfully tested");
@@ -238,7 +245,7 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		Thread.sleep(5000);			
 		Profile_Page_Objects.fldOffclEmail.sendKeys(getExcelData("Fields", 2, 5));	
 		Thread.sleep(5000);
-		
+		captureScreen("EmailIdFormatValidation.png");
 		if (Profile_Page_Objects.InvalidEmail.getText().contains("BITS Email is not valid"))
 		{
 			extenttestCase.log(Status.PASS, "Official email format successfully tested");
@@ -248,17 +255,18 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 			extenttestCase.log(Status.FAIL, "Not Success");
 		}		
 		Thread.sleep(5000);	
-		
+
 		Profile_Page_Objects.fldOffclEmail.clear();
 		Thread.sleep(5000);	
-		
+
 		Profile_Page_Objects.fldOffclEmail.sendKeys(getExcelData("Fields", 1, 5));	
 		Thread.sleep(5000);
 		Profile_Page_Objects.btnSave.click();
 		Thread.sleep(5000);	
+		captureScreen("RestoreOfficialMail.png");
 		extenttestCase.log(Status.PASS, "Original Official email id restored");			
 	}
-	
+
 	@Test(priority=9)
 	public void validateMobileNumber() throws Throwable
 	{
@@ -266,12 +274,13 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		extenttestCase=extentReport.createTest("Testing Mobile Number format");
 		logger.info("Testing Mobile Number format");		
 		PageFactory.initElements(driver, Profile_Page_Objects.class);	
-		
+
 		Profile_Page_Objects.fldMobNo.clear();
 		Thread.sleep(2000);
-		Profile_Page_Objects.fldMobNo.sendKeys(String.valueOf(getExcelData1("Fields", 2, 6)));
-		Profile_Page_Objects.btnSave.click();
+		Profile_Page_Objects.fldMobNo.sendKeys(String.valueOf(getExcelNumericData("Fields", 2, 6)));
+		Profile_Page_Objects.btnSave.click();		
 		Thread.sleep(2000);
+		captureScreen("ValidateMobileNumber.png");
 		if (Profile_Page_Objects.fldMobNo.getText().length()<10)
 		{			
 			extenttestCase.log(Status.PASS, "Phone number minimum length validated");
@@ -279,23 +288,25 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		Thread.sleep(2000);
 		Profile_Page_Objects.fldMobNo.clear();
 		Thread.sleep(2000);
-		Profile_Page_Objects.fldMobNo.sendKeys(String.valueOf(getExcelData1("Fields", 3, 6)));
+		Profile_Page_Objects.fldMobNo.sendKeys(String.valueOf(getExcelNumericData("Fields", 3, 6)));
 		Profile_Page_Objects.btnSave.click();
 		Thread.sleep(2000);
+		captureScreen("ValidateMobileNumber1.png");
 		if (Profile_Page_Objects.fldMobNo.getText().length()>12)
 		{
 			extenttestCase.log(Status.PASS, "Phone number maximum length validated");
 		}				
 		Profile_Page_Objects.fldMobNo.clear();
 		Thread.sleep(2000);
-		Profile_Page_Objects.fldMobNo.sendKeys(String.valueOf(getExcelData1("Fields", 1, 6)));
+		Profile_Page_Objects.fldMobNo.sendKeys(String.valueOf(getExcelNumericData("Fields", 1, 6)));
 		Thread.sleep(2000);	
 		Profile_Page_Objects.btnSave.click();
 		Thread.sleep(2000);
+		captureScreen("ValidateMobileNumber2.png");
 	}
 	//Enter a valid phone number -Maximum 12 digits
 	//Enter a valid phone number -Minimum 10 digits
-	
+
 	@Test(priority=10)
 	public void validateLandPhoneNumber() throws Throwable
 	{
@@ -303,12 +314,13 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		extenttestCase=extentReport.createTest("Testing LandPhone Number format");
 		logger.info("Testing LandPhone Number format");		
 		PageFactory.initElements(driver, Profile_Page_Objects.class);	
-		
+
 		Profile_Page_Objects.fldLandLine.clear();
 		Thread.sleep(2000);
-		Profile_Page_Objects.fldLandLine.sendKeys(String.valueOf(getExcelData1("Fields", 2, 7)));
+		Profile_Page_Objects.fldLandLine.sendKeys(String.valueOf(getExcelNumericData("Fields", 2, 7)));
 		Profile_Page_Objects.btnSave.click();
 		Thread.sleep(2000);
+		captureScreen("ValidateLandNumber.png");
 		if (Profile_Page_Objects.fldLandLine.getText().length()<10)
 		{			
 			extenttestCase.log(Status.PASS, "LandPhone number minimum length validated");
@@ -316,92 +328,100 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		Thread.sleep(2000);
 		Profile_Page_Objects.fldLandLine.clear();
 		Thread.sleep(2000);
-		Profile_Page_Objects.fldLandLine.sendKeys(String.valueOf(getExcelData1("Fields", 3, 7)));
+		Profile_Page_Objects.fldLandLine.sendKeys(String.valueOf(getExcelNumericData("Fields", 3, 7)));
 		Profile_Page_Objects.btnSave.click();
 		Thread.sleep(2000);
+		captureScreen("ValidateLandNumber1.png");
 		if (Profile_Page_Objects.fldLandLine.getText().length()>12)
 		{
 			extenttestCase.log(Status.PASS, "LandPhone number maximum length validated");
 		}		
 		Profile_Page_Objects.fldLandLine.clear();
 		Thread.sleep(2000);
-		Profile_Page_Objects.fldLandLine.sendKeys(String.valueOf(getExcelData1("Fields", 1, 7)));
+		Profile_Page_Objects.fldLandLine.sendKeys(String.valueOf(getExcelNumericData("Fields", 1, 7)));
 		Thread.sleep(2000);	
 		Profile_Page_Objects.btnSave.click();
 		Thread.sleep(2000);
+		captureScreen("ValidateLandNumber2.png");
 	}
-	
+
 	@Test(priority=11)
-		public void validatePIN() throws Throwable
+	public void validatePIN() throws Throwable
+	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		extenttestCase=extentReport.createTest("Testing PIN format");
+		logger.info("Testing PIN format");		
+		PageFactory.initElements(driver, Profile_Page_Objects.class);	
+
+		Profile_Page_Objects.fldPin.clear();
+		Thread.sleep(2000);
+		Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelNumericData("Fields", 2, 13)));
+		Profile_Page_Objects.btnSave.click();
+		Thread.sleep(2000);
+		captureScreen("ValidatePIN.png");
+		//System.out.println(Profile_Page_Objects.fldPin.getText().toString()+ " "+Profile_Page_Objects.fldPin.getText().toString().length() + " - "+Profile_Page_Objects.InvalidPIN.getText());
+		if (/*Profile_Page_Objects.fldPin.getText().length()<5 &&*/ Profile_Page_Objects.InvalidPIN.getText().contains("-Minimum 5 digits"))
+		{			
+			extenttestCase.log(Status.PASS, "PIN minimum Length Validated");
+		}			
+		Profile_Page_Objects.fldPin.clear();
+		Thread.sleep(2000);
+		Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelData("Fields", 4, 13)));
+		Profile_Page_Objects.btnSave.click();
+		Thread.sleep(2000);
+		captureScreen("ValidatePIN1.png");
+		//System.out.println(Profile_Page_Objects.fldPin.getText().toString()+ " "+Profile_Page_Objects.fldPin.getText().toString().length() + " - "+Profile_Page_Objects.InvalidPIN.getText());
+		if (/*Profile_Page_Objects.fldPin.getText().length()==5 && */Profile_Page_Objects.InvalidPIN.getText().contains("Enter a valid PIN"))
+		{			
+			extenttestCase.log(Status.PASS, "5 digit PIN format validated");
+		}			
+		Profile_Page_Objects.fldPin.clear();
+		Thread.sleep(2000);
+		Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelData("Fields", 5, 13)));
+		Profile_Page_Objects.btnSave.click();
+		Thread.sleep(2000);
+		captureScreen("ValidatePIN2.png");
+		//System.out.println(Profile_Page_Objects.fldPin.getText().toString()+ " "+Profile_Page_Objects.fldPin.getText().toString().length() + " - "+Profile_Page_Objects.InvalidPIN.getText());
+		if (/*Profile_Page_Objects.fldPin.getText().length()==6 &&*/ Profile_Page_Objects.InvalidPIN.getText().contains("Enter a valid PIN"))
+		{			
+			extenttestCase.log(Status.PASS, "6 digit PIN format validated");
+		}			
+		Thread.sleep(2000);
+		Profile_Page_Objects.fldPin.clear();
+		Thread.sleep(2000);
+		Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelNumericData("Fields", 3, 13)));
+		Profile_Page_Objects.btnSave.click();
+		Thread.sleep(2000);
+		captureScreen("ValidatePIN3.png");
+		//System.out.println(Profile_Page_Objects.fldPin.getText().toString()+ " "+Profile_Page_Objects.fldPin.getText().toString().length() + " - "+Profile_Page_Objects.InvalidPIN.getText());
+		if (/*Profile_Page_Objects.fldPin.getText().toString().length()>6 && */Profile_Page_Objects.InvalidPIN.getText().contains("-Maximum 6 digits"))
 		{
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			extenttestCase=extentReport.createTest("Testing PIN format");
-			logger.info("Testing PIN format");		
-			PageFactory.initElements(driver, Profile_Page_Objects.class);	
-			
-			Profile_Page_Objects.fldPin.clear();
-			Thread.sleep(2000);
-			Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelData1("Fields", 2, 13)));
-			Profile_Page_Objects.btnSave.click();
-			Thread.sleep(2000);
-			//System.out.println(Profile_Page_Objects.fldPin.getText().toString()+ " "+Profile_Page_Objects.fldPin.getText().toString().length() + " - "+Profile_Page_Objects.InvalidPIN.getText());
-			if (/*Profile_Page_Objects.fldPin.getText().length()<5 &&*/ Profile_Page_Objects.InvalidPIN.getText().contains("-Minimum 5 digits"))
-			{			
-				extenttestCase.log(Status.PASS, "PIN minimum Length Validated");
-			}			
-			Profile_Page_Objects.fldPin.clear();
-			Thread.sleep(2000);
-			Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelData("Fields", 4, 13)));
-			Profile_Page_Objects.btnSave.click();
-			Thread.sleep(2000);
-			//System.out.println(Profile_Page_Objects.fldPin.getText().toString()+ " "+Profile_Page_Objects.fldPin.getText().toString().length() + " - "+Profile_Page_Objects.InvalidPIN.getText());
-			if (/*Profile_Page_Objects.fldPin.getText().length()==5 && */Profile_Page_Objects.InvalidPIN.getText().contains("Enter a valid PIN"))
-			{			
-				extenttestCase.log(Status.PASS, "5 digit PIN format validated");
-			}			
-			Profile_Page_Objects.fldPin.clear();
-			Thread.sleep(2000);
-			Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelData("Fields", 5, 13)));
-			Profile_Page_Objects.btnSave.click();
-			Thread.sleep(2000);
-			//System.out.println(Profile_Page_Objects.fldPin.getText().toString()+ " "+Profile_Page_Objects.fldPin.getText().toString().length() + " - "+Profile_Page_Objects.InvalidPIN.getText());
-			if (/*Profile_Page_Objects.fldPin.getText().length()==6 &&*/ Profile_Page_Objects.InvalidPIN.getText().contains("Enter a valid PIN"))
-			{			
-				extenttestCase.log(Status.PASS, "6 digit PIN format validated");
-			}			
-			Thread.sleep(2000);
-			Profile_Page_Objects.fldPin.clear();
-			Thread.sleep(2000);
-			Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelData1("Fields", 3, 13)));
-			Profile_Page_Objects.btnSave.click();
-			Thread.sleep(2000);
-			//System.out.println(Profile_Page_Objects.fldPin.getText().toString()+ " "+Profile_Page_Objects.fldPin.getText().toString().length() + " - "+Profile_Page_Objects.InvalidPIN.getText());
-			if (/*Profile_Page_Objects.fldPin.getText().toString().length()>6 && */Profile_Page_Objects.InvalidPIN.getText().contains("-Maximum 6 digits"))
-			{
-				extenttestCase.log(Status.PASS, "PIN maximum length validated");
-			}
-			Profile_Page_Objects.fldPin.clear();
-			Thread.sleep(2000);
-			Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelData1("Fields", 1, 13)));
-			Thread.sleep(2000);	
-			Profile_Page_Objects.btnSave.click();
-			Thread.sleep(2000);
+			extenttestCase.log(Status.PASS, "PIN maximum length validated");
 		}
-	
-	@Test(priority=12)
+		Profile_Page_Objects.fldPin.clear();
+		Thread.sleep(2000);
+		Profile_Page_Objects.fldPin.sendKeys(String.valueOf(getExcelNumericData("Fields", 1, 13)));
+		Thread.sleep(2000);	
+		Profile_Page_Objects.btnSave.click();
+		Thread.sleep(2000);
+		captureScreen("ValidatePIN4.png");
+	}
+
+	@Test(priority=12)	
 	public void validateRemoveGroupLeader() throws Throwable
 	{
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		extenttestCase=extentReport.createTest("Testing Group Leader functionality : Remove");
 		logger.info("Testing Group Leader functionality for Removing group leader");		
 		PageFactory.initElements(driver, Profile_Page_Objects.class);	
-		
+
 		if (Profile_Page_Objects.fldGrpLeader.isSelected())
 		{
 			Profile_Page_Objects.fldGrpLeader.click();
 			Thread.sleep(5000);	
 			Profile_Page_Objects.btnSave.click();
 			Thread.sleep(3000);	
+			captureScreen("RemoveGroupLeader.png");
 			extenttestCase.log(Status.PASS, "Group Leader Successfully Removed");
 		}
 		else
@@ -409,7 +429,7 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 			extenttestCase.log(Status.INFO, "Faculty is already not a Group Leader");
 		}
 	}
-	
+
 	@Test(priority=13)
 	public void validateAssignGroupLeader() throws Throwable
 	{
@@ -417,16 +437,17 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		extenttestCase=extentReport.createTest("Testing Group Leader functionality : Assign");
 		logger.info("Testing Group Leader functionality for Removing group leader");		
 		PageFactory.initElements(driver, Profile_Page_Objects.class);			
-		
+
 		if (!Profile_Page_Objects.fldGrpLeader.isSelected())
 		{		
 			Thread.sleep(5000);	
 			Profile_Page_Objects.fldGrpLeader.click();
-			Thread.sleep(5000);					
+			Thread.sleep(5000);				 	
 			Profile_Page_Objects.btnSave.click();
 			Thread.sleep(3000);	
+			captureScreen("validateAssignGroupLeader.png");
 			String text=driver.findElement(By.cssSelector(".toast-message")).getText().toString();
-			
+
 			if (!text.contains("Error: Group leader already exists for Department : "))
 			{
 				extenttestCase.log(Status.PASS, "Group leader Assigned successfully");
@@ -437,7 +458,7 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 			}
 		}		
 	}	
-	
+
 	@Test(priority=14)
 	public void validateGroupLeaderFail() throws Throwable
 	{
@@ -445,23 +466,26 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		extenttestCase=extentReport.createTest("Testing Group Leader functionality : Assign another group leader for a department");
 		logger.info("Testing Group Leader functionality by assigning more than one leader on same department");		
 		PageFactory.initElements(driver, Profile_Page_Objects.class);			
-		
+
 		if (Profile_Page_Objects.fldGrpLeader.isSelected())
 		{
+			captureScreen("fldGrpLeader.png");
 			Profile_Page_Objects.fldGrpLeader.click();
-			Thread.sleep(3000);
+			captureScreen("fldGrpLeader1.png");
+			Thread.sleep(3000);			
 		}
 		Profile_Page_Objects.fldDept.sendKeys(getExcelData("Fields",2, 1));
 		Thread.sleep(3000);
-		
+
 		if (!Profile_Page_Objects.fldGrpLeader.isSelected())
 		{				
 			Profile_Page_Objects.fldGrpLeader.click();
 			Thread.sleep(5000);					
 			Profile_Page_Objects.btnSave.click();
 			Thread.sleep(3500);	
+			CommonFunctions.captureScreen("validateGroupLeaderFail.png");
 			String text=driver.findElement(By.cssSelector(".toast-message")).getText().toString();
-			
+
 			if (text.contains("Error: Group leader already exists for Department : "))
 			{
 				extenttestCase.log(Status.PASS, "Group leader validation success");
@@ -473,7 +497,7 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		}	
 		driver.navigate().refresh();
 	}
-	
+
 	@Test(priority=15)
 	public void validateMandatoryFields() throws Throwable
 	{		
@@ -481,9 +505,9 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		extenttestCase=extentReport.createTest("Saving without entering mandatory fields");
 		logger.info("Saving Profile without entering mandatory fields");		
 		PageFactory.initElements(driver, Profile_Page_Objects.class);
-		
+
 		driver.navigate().refresh();
-		
+
 		Profile_Page_Objects.fldFacultyName.sendKeys(Keys.CONTROL,"a",Keys.BACK_SPACE);
 		Thread.sleep(5000);			
 		//System.out.println("faculty name is cleared");
@@ -500,8 +524,9 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		Profile_Page_Objects.fldPin.sendKeys(Keys.CONTROL,"a",Keys.BACK_SPACE);
 		Thread.sleep(2000);
 		//System.out.println("pin is cleared");
-		
+
 		Profile_Page_Objects.btnSave.click();
+		captureScreen("validateMandatoryFields.png");
 		extenttestCase.log(Status.PASS, "Manatory fields suuccessfully validated");
 		Thread.sleep(10000);
 		closeProfilepage();
@@ -511,6 +536,7 @@ public class FacultyRole_EditProfile extends CommonFunctions{
 		PageFactory.initElements(driver, Profile_Page_Objects.class);
 		Profile_Page_Objects.btnCancel.click();
 		Thread.sleep(2000);
+		captureScreen("closeProfilepage.png");
 		Profile_Page_Objects.btnOkay.click();
 	}
 }

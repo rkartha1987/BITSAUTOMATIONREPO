@@ -3,14 +3,14 @@
 <suite name="Failed suite [BITS Automation]" guice-stage="DEVELOPMENT" verbose="2">
   <test thread-count="5" name="Login(failed)" verbose="2">
     <classes>
-      <class name="testCases.Login">
+      <class name="testCases.AdminRole_Dashboard">
         <methods>
           <include name="tearDown"/>
-          <include name="InvalidUserIdandPassword"/>
-          <include name="ValidUserIdandPassword"/>
+          <include name="VerifyAllottedOrganizations"/>
+          <include name="VerifyAllottedStudents"/>
           <include name="launchBrowser"/>
         </methods>
-      </class> <!-- testCases.Login -->
+      </class> <!-- testCases.AdminRole_Dashboard -->
     </classes>
   </test> <!-- Login(failed) -->
 </suite> <!-- Failed suite [BITS Automation] -->

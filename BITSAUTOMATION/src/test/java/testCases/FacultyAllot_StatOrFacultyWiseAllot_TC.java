@@ -59,11 +59,12 @@ public class FacultyAllot_StatOrFacultyWiseAllot_TC extends CommonFunctions{
 
 		Faculty_StationOrFacultyWise_Allot_Page_Objects.FacultyAllotment.click();
 		extenttestCase.log(Status.INFO,"Clicked on Faculty Allotment in Menu");
+		captureScreen("FacultyAllotmentClick.png");
 
 		Faculty_StationOrFacultyWise_Allot_Page_Objects.StationOrFacultyAllot_Listval.click();
 		extenttestCase.log(Status.INFO,"Clicked on Station/Faculty wise Allotment in Faculty Allotment List");
 		//FacultyAllot_GroupLeader_Allotment_Objects.StationOrFacultyAllot_Listval.click();//element to chech fail 
-
+		captureScreen("StationOrFacultyAllot_ListvalClick.png");
 		String GrpLeadpage=Faculty_StationOrFacultyWise_Allot_Page_Objects.StatOrFacultyPage.getText();
 
 		if(GrpLeadpage.contains("Allot Stations to Faculty")) { 
@@ -89,9 +90,9 @@ public class FacultyAllot_StatOrFacultyWiseAllot_TC extends CommonFunctions{
 		Faculty_StationOrFacultyWise_Allot_Page_Objects.Faculty_span.click();
 
 		MultiSelectListdrpdwn(Faculty_StationOrFacultyWise_Allot_Page_Objects.Faculty_drpdwn, "StationOrFacultyWiseAllot", 9,1 );
-
-		Faculty_StationOrFacultyWise_Allot_Page_Objects.Save_btn.click();
 		captureScreen("AllotByStationOption.png");
+		Faculty_StationOrFacultyWise_Allot_Page_Objects.Save_btn.click();
+		captureScreen("AllotByStationOption1.png");
 	}
 
 	@Test(priority = 1)
@@ -109,8 +110,8 @@ public class FacultyAllot_StatOrFacultyWiseAllot_TC extends CommonFunctions{
 		Faculty_StationOrFacultyWise_Allot_Page_Objects.Station_span.click();
 
 		MultiSelectListdrpdwn(Faculty_StationOrFacultyWise_Allot_Page_Objects.Station_drpdwn, "StationOrFacultyWiseAllot", 9,1 );
-
-		Faculty_StationOrFacultyWise_Allot_Page_Objects.Save_btn.click();
 		captureScreen("AllotByFacultyOption.png");
+		Faculty_StationOrFacultyWise_Allot_Page_Objects.Save_btn.click();
+		captureScreen("AllotByFacultyOption1.png");
 	}
 }
