@@ -4,7 +4,6 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.model.ScreenCapture;
 
 import CommonFunctions.CommonFunctions;
 import pageObjects.ProblemBank_Add_Objects;
@@ -533,6 +532,8 @@ public class FacultyRole_ProblemBank_Add extends CommonFunctions{
 
 		ProblemBank_Add_Objects.SaveNextF.click();
 		Thread.sleep(2000);
+		
+		captureScreen("Facility-MandatoryFieldsValidation.png");
 
 		extenttestCase.log(Status.PASS, "Mandatory Field Validation done in Facility Successfully");
 
@@ -637,11 +638,12 @@ public class FacultyRole_ProblemBank_Add extends CommonFunctions{
 
 		ProblemBank_Add_Objects.SaveNextF.click();
 		Thread.sleep(3000);
-
-		String CheckProblem = ProblemBank_Add_Objects.toaster.getText();
-		System.out.println(CheckProblem);
+		captureScreen("Facility-Saved.png");
+		
+		String toasterMsg = ProblemBank_Add_Objects.toaster.getText();
+		System.out.println(toasterMsg);
 		Thread.sleep(2000);
-		if(CheckProblem.contains("Problem Bank Saved"))
+		if(toasterMsg.contains("Problem Bank Saved"))
 		{
 			extenttestCase.log(Status.PASS, "New Facility Added Successfully");
 			extenttestCase.log(Status.PASS, "Problem Bank Created Successfully");
