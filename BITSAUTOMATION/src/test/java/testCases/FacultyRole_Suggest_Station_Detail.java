@@ -1,22 +1,14 @@
 package testCases;
-import java.io.File;
-import java.io.IOException;
 
+import java.io.IOException;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-//import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.io.FileHandler;
-//import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-
 import com.aventstack.extentreports.Status;
 import CommonFunctions.CommonFunctions;
 import pageObjects.Faculty_Suggest_Station_Detail_Objects;
 import pageObjects.Faculty_Suggest_Station_List_Objects;
-//import pageObjects.Profile_Page_Objects;
 
 public class FacultyRole_Suggest_Station_Detail extends CommonFunctions{
 	
@@ -33,18 +25,15 @@ static Logger logger = Logger.getLogger(FacultyRole_Suggest_Station_Detail.class
 	}
 
 	@Test(priority = 1)
-	public void AddStationScreenshotCapture() throws InterruptedException, IOException
+	public void AddStationScreenshotCapture() throws Throwable
 	{
 		extenttestCase.log(Status.INFO,"Landing into Suggest Station Detail");
 		
 		Faculty_Suggest_Station_Detail_Objects.btnAddStation.click();
 		Thread.sleep(2000);
 		
-		TakesScreenshot screenshot = (TakesScreenshot) driver;
-		File sourceFile = screenshot.getScreenshotAs(OutputType.FILE);
-		File destinationFile = new File("SuggestStationDetail.png");
-		FileHandler.copy(sourceFile, destinationFile);
-		extenttestCase.addScreenCaptureFromPath("SuggestStationDetail.png");
+		captureScreen("ReferStationDetails.png");
+		
 	}
 	
 	@Test(priority = 2)
