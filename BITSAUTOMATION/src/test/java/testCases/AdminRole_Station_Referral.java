@@ -24,23 +24,23 @@ import pageObjects.Suggest_Station_Page_Objects;
 
 import org.openqa.selenium.support.ui.Select;
 
-public class AdminRole_Suggest_Station extends CommonFunctions
+public class AdminRole_Station_Referral extends CommonFunctions
 {
 	static Logger logger=Logger.getLogger(Edit_Profile.class);
 	String strPageTitle=""; 
 	String brdCrumbs="";
 
 	@Test(priority=1)
-	public void validateNavigatetoSuggestStation() throws Throwable
+	public void validateNavigatetoManageStation() throws Throwable
 	{
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		extenttestCase=extentReport.createTest("Navigate to Suggest Station Validation");
-		logger.info("Navigating to Suggest Station Page");		
+		extenttestCase=extentReport.createTest("Navigate to Manage Station Page - Validation");
+		logger.info("Navigating to Manage Station Page");		
 		PageFactory.initElements(driver, Suggest_Station_Page_Objects.class);
 		Suggest_Station_Page_Objects.mnuSuggestStation.click();		
-		captureScreen("SuggestStation.png");
+		captureScreen("ManageStation.png");
 		Thread.sleep(5000);			
-		extenttestCase.log(Status.PASS, "Successfully navigated to Suggest Station Page");
+		extenttestCase.log(Status.PASS, "Successfully navigated to Manage Station Page");
 	}
 
 	@Test(priority=2)
@@ -74,7 +74,7 @@ public class AdminRole_Suggest_Station extends CommonFunctions
 			if (Suggest_Station_Page_Objects.grdRecordNotFound.getText().contains("Record(s) not found"))
 			{
 				//System.out.println("Record Count not found");
-				extenttestCase.log(Status.PASS, "There is no Station data for the faculty");
+				extenttestCase.log(Status.PASS, "There is no Station data for the Admin");
 			}
 			else
 			{	
@@ -113,7 +113,7 @@ public class AdminRole_Suggest_Station extends CommonFunctions
 		{
 			if (Suggest_Station_Page_Objects.grdRecordNotFound.getText().contains("Record(s) not found"))
 			{
-				extenttestCase.log(Status.PASS, "There is no Station data for the faculty");
+				extenttestCase.log(Status.PASS, "There is no Station data for the Admin");
 			}
 		}
 	}
