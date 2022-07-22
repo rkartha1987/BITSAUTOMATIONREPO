@@ -16,7 +16,7 @@ public class Logout extends CommonFunctions{
 static Logger logger = Logger.getLogger(Login.class);
 	
 	@Test(priority = 0)
-	public void Signout() throws Throwable
+	public static void Signout() throws Throwable
 	{
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
