@@ -169,7 +169,10 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 
 		Suggest_Station_List_Page_Objects.SearchField.sendKeys(getExcelData("SStationList", 5, 1));
 		Thread.sleep(2000);
-
+		
+		Suggest_Station_List_Page_Objects.FilteredSearch.click();
+		Thread.sleep(2000);
+		
 		Suggest_Station_List_Page_Objects.SelectStatus.sendKeys(getExcelData("SStationList", 5, 2));
 		Thread.sleep(2000);
 
@@ -210,28 +213,28 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 		Suggest_Station_Detail_Page_Objects.SName.clear();
 		Thread.sleep(2000);
 
-		Suggest_Station_Detail_Page_Objects.SName.sendKeys(getExcelData("SStationDetail", 2, 0));
+		Suggest_Station_Detail_Page_Objects.SName.sendKeys(getExcelData("SStationDetail", 1, 0));
 		Thread.sleep(2000);
 
-		Suggest_Station_Detail_Page_Objects.StationType.sendKeys(getExcelData("SStationDetail", 2, 2));
+		Suggest_Station_Detail_Page_Objects.StationType.sendKeys(getExcelData("SStationDetail", 1, 2));
 		Thread.sleep(2000);
 
-		Suggest_Station_Detail_Page_Objects.PSProgram.sendKeys(getExcelData("SStationDetail", 2, 3));
+		Suggest_Station_Detail_Page_Objects.PSProgram.sendKeys(getExcelData("SStationDetail", 1, 3));
 		Thread.sleep(2000);
 
-		Suggest_Station_Detail_Page_Objects.BDomain.sendKeys(getExcelData("SStationDetail", 2, 4));
+		Suggest_Station_Detail_Page_Objects.BDomain.sendKeys(getExcelData("SStationDetail", 1, 4));
 		Thread.sleep(2000);
 
 		Suggest_Station_Detail_Page_Objects.SRelation.clear();
 		Thread.sleep(2000);
 
-		Suggest_Station_Detail_Page_Objects.SRelation.sendKeys(getExcelData("SStationDetail", 2, 5));
+		Suggest_Station_Detail_Page_Objects.SRelation.sendKeys(getExcelData("SStationDetail", 1, 5));
 		Thread.sleep(2000);
 
 		Suggest_Station_Detail_Page_Objects.URL.clear();
 		Thread.sleep(2000);
 
-		Suggest_Station_Detail_Page_Objects.URL.sendKeys(getExcelData("SStationDetail", 2, 6));
+		Suggest_Station_Detail_Page_Objects.URL.sendKeys(getExcelData("SStationDetail", 1, 6));
 		Thread.sleep(2000);
 
 		Suggest_Station_Detail_Page_Objects.ContactNum.clear();
@@ -252,6 +255,9 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 		Suggest_Station_Detail_Page_Objects.Address2.sendKeys(getExcelData("SStationDetail", 2, 9));
 		Thread.sleep(2000);
 
+		Suggest_Station_Detail_Page_Objects.Country.sendKeys(getExcelData("SStationDetail", 5, 10));
+		Thread.sleep(2000);
+		
 		Suggest_Station_Detail_Page_Objects.Country.sendKeys(getExcelData("SStationDetail", 2, 10));
 		Thread.sleep(2000);
 
@@ -293,7 +299,10 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 		Suggest_Station_List_Page_Objects.SearchSelect.sendKeys(getExcelData("SStationList", 2, 0));
 		Thread.sleep(2000);
 
-		Suggest_Station_List_Page_Objects.SearchField.sendKeys(getExcelData("SStationList", 6, 1));
+		Suggest_Station_List_Page_Objects.SearchField.sendKeys(getExcelData("SStationDetail", 6, 0));
+		Thread.sleep(2000);
+		
+		Suggest_Station_List_Page_Objects.FilteredSearch.click();
 		Thread.sleep(2000);
 
 		Suggest_Station_List_Page_Objects.SelectStatus.sendKeys(getExcelData("SStationList", 6, 2));
@@ -312,7 +321,7 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 		//String PSTypeResult = Suggest_Station_List_Page_Objects.PSTypeResult.getText();
 		//System.out.println(PSTypeResult);
 		Thread.sleep(2000);
-		if(StationResult.contentEquals(getExcelData("SStationList", 6, 1)) && StatusResult.contentEquals(getExcelData("SStationList", 6, 2)))
+		if(StationResult.contentEquals(getExcelData("SStationList", 6, 0)) && StatusResult.contentEquals(getExcelData("SStationList", 6, 2)))
 		{
 			extenttestCase.log(Status.PASS, "New Station Edited Successfully");
 		}
