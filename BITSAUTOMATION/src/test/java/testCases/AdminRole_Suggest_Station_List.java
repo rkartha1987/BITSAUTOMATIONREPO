@@ -20,7 +20,7 @@ public class AdminRole_Suggest_Station_List extends CommonFunctions{
 		extenttestCase=extentReport.createTest("Verifying Station Menu");
 		PageFactory.initElements(driver, Suggest_Station_List_Page_Objects.class);
 		extenttestCase.log(Status.INFO,"Landing into Suggest Station List");
-		Suggest_Station_List_Page_Objects.SSMenu.click();
+		Suggest_Station_List_Page_Objects.StationMenu.click();
 		Thread.sleep(2000);
 
 		captureScreen("SuggestStationList.png");		
