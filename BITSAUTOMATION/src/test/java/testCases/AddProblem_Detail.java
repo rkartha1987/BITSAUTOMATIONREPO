@@ -12,7 +12,6 @@ import CommonFunctions.CommonFunctions;
 import pageObjects.AddProblem_Detail_Page_Objects;
 
 public class AddProblem_Detail extends CommonFunctions{
-
 	static Logger logger = Logger.getLogger(AddProblem_Detail.class);
 
 	@Test(priority = 0)
@@ -615,6 +614,6 @@ public class AddProblem_Detail extends CommonFunctions{
 		}
 
 		AddProblem_Detail_Page_Objects.SearchProblem.clear();
-		Thread.sleep(2000);		
+		Thread.sleep(2000);
 	}
 }
