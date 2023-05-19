@@ -16,26 +16,22 @@ import CommonFunctions.CommonFunctions;
 
 import pageObjects.StudentSuggest_Station_List_Page_Objects;
 
-public class StudentSuggest_Station_List extends CommonFunctions{
-	
+public class StudentSuggest_Station_List extends CommonFunctions{	
 	static Logger logger = Logger.getLogger(StudentSuggest_Station_List.class);
 	
 	@Test(priority = 0)
-	public void StationMenu() throws InterruptedException, IOException
-	{
+	public void StationMenu() throws InterruptedException, IOException	{
 		extenttestCase=extentReport.createTest("Verifying Suggest Station List Page");
 		PageFactory.initElements(driver, StudentSuggest_Station_List_Page_Objects.class);
 		extenttestCase.log(Status.INFO,"Landing into Suggest Station List");
 		StudentSuggest_Station_List_Page_Objects.SSMenu.click();
 		Thread.sleep(2000);
-		
-
+	
 		TakesScreenshot screenshot = (TakesScreenshot) driver;
 		File sourceFile = screenshot.getScreenshotAs(OutputType.FILE);
 		File destinationFile = new File("SuggestStationList.png");
 		FileHandler.copy(sourceFile, destinationFile);
 		extenttestCase.addScreenCaptureFromPath("SuggestStationList.png");
-
 	}
 	
 	@Test(priority = 1)
@@ -177,6 +173,4 @@ public class StudentSuggest_Station_List extends CommonFunctions{
 		driver.navigate().refresh();
 
 	}
-
-
 }

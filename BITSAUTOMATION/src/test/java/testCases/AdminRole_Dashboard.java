@@ -86,6 +86,7 @@ public class AdminRole_Dashboard extends CommonFunctions {
 
 		String Semtype=Dashboard_Common_Objects.Semester.getText();
 		System.out.println("Sem Type = "+ Semtype);
+		System.out.println(getExcelData("AdminDash",2,1));
 		Thread.sleep(2000);
 
 		if (Semtype.contentEquals(getExcelData("AdminDash",2,1)))

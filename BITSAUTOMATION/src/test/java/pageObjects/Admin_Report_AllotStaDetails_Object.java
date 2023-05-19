@@ -3,9 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Admin_Report_AllotStaDetails_Object 
-{
-	
+public class Admin_Report_AllotStaDetails_Object {	
 	@FindBy(xpath="//a[@href='#'][contains(.,'Reports')]")
 	public static WebElement Report ;
 	
@@ -133,5 +131,5 @@ public class Admin_Report_AllotStaDetails_Object
 	public static WebElement TableResult;
 	
 	@FindBy(xpath="//button[contains(@class,'btn btn-export')]")
-	public static WebElement ClickExport;
-	}
+	public static WebElement ClickExport;	
+}

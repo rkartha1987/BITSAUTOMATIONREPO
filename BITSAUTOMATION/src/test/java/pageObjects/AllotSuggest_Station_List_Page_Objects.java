@@ -3,8 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class AllotSuggest_Station_List_Page_Objects {
-	
+public class AllotSuggest_Station_List_Page_Objects {	
 	@FindBy(xpath="//*[@id=\"collapsibleNavbar\"]/ul/li[2]/a")
 	public static WebElement SSMenu;
 	
@@ -81,6 +80,4 @@ public class AllotSuggest_Station_List_Page_Objects {
 	
 	@FindBy(xpath="/html/body/app-root/app-layout/app-header/nav/div/div/div[2]/ul/li[2]/div/div/div/a[2]")
 	public static WebElement SignOutClick;
-
-
 }

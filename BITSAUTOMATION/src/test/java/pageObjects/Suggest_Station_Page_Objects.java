@@ -16,6 +16,9 @@ public class Suggest_Station_Page_Objects {
 	
 	@FindBy(xpath="/html/body/app-root/app-layout/app-manage-station/div/div[1]/div/div/div[2]/div/button")
 	public static WebElement btnAddStation;	
+	
+	@FindBy(xpath="/html/body/app-root/app-layout/app-manage-station/div/div[1]/div/div/div[2]/button[1]")
+public static WebElement btnAddStation1;	
  	
 	/////////////// Filter Criterias ///////////////
 	

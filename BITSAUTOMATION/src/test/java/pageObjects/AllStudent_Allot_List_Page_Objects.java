@@ -4,7 +4,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class AllStudent_Allot_List_Page_Objects {
-
 	@FindBy(xpath="//*[@id=\"navbarDropdown\"]")
 	public static WebElement SAMenu;
 
@@ -23,9 +22,7 @@ public class AllStudent_Allot_List_Page_Objects {
 	public static WebElement LabelSem2;
 	
 	@FindBy(xpath="/html/body/app-root/app-layout/app-semester-preference-semester-allotment/div/div[2]/div[1]/div[2]/ul/li[5]/label")
-	public static WebElement LabelSemboth;
-	
-	
+	public static WebElement LabelSemboth;	
 
 	///////////////// First Row //////////////////////////////////////////////////////
 
@@ -82,5 +79,4 @@ public class AllStudent_Allot_List_Page_Objects {
 
 	@FindBy(xpath="/html/body/app-root/app-layout/app-semester-preference-semester-allotment/div/div[2]/div[1]/div[3]/table/tbody/tr[4]/td[5]")
 	public static WebElement Row44;
-
 }

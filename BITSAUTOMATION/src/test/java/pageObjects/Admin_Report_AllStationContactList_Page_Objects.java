@@ -3,9 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Admin_Report_AllStationContactList_Page_Objects 
-{
-
+public class Admin_Report_AllStationContactList_Page_Objects {
 	@FindBy(xpath="/html/body/app-root/app-layout/app-navbar/nav/div/div/ul/li[6]/a")
 	public static WebElement Report;
 	
@@ -68,5 +66,4 @@ public class Admin_Report_AllStationContactList_Page_Objects
 	
 	@FindBy(xpath="/html/body/app-root/app-layout/app-all-station-contact-list/div/div[2]/div/div/div[2]/div/div[3]/table")
 	public static WebElement Result;
-
 }

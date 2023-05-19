@@ -16,6 +16,9 @@ public class Suggest_Station_Detail_Page_Objects {
 	@FindBy(xpath="/html/body/app-root/app-layout/app-add-station/div/div[2]/div/form/div/div[3]/div/div/button[3]")
 	public static WebElement Submitbtn;
 	
+	@FindBy(xpath="/html/body/app-root/app-layout/app-add-station/div/div[2]/div/form/div/div[3]/div/div/button[3]")
+	public static WebElement Submitbtn1;
+	
 	@FindBy(xpath="/html/body/app-root/app-layout/app-add-station/div/div[2]/div/form/div/div[3]/div/div/button[1]")
 	public static WebElement Backbtn;
 
@@ -91,6 +94,8 @@ public class Suggest_Station_Detail_Page_Objects {
 	@FindBy(xpath="/html/body/app-root/app-layout/app-manage-station/div/div[2]/div/div[3]/table/tbody/tr/td[2]/a")
 	public static WebElement StationLink;
 	
+	@FindBy(xpath="//*[@id=\"toast-container\"]")
+	public static WebElement tosterMsg;
 	
 
 }

@@ -3,12 +3,9 @@ package pageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
  
-public class Admin_Report_ProblemBankDetails_Object 
-{
-
+public class Admin_Report_ProblemBankDetails_Object {
 	@FindBy(xpath="/html/body/app-root/app-layout/app-navbar/nav/div/div/ul/li[7]/a")
 	public static WebElement Report;
-	
 	
 	@FindBy(xpath="/html/body/app-root/app-layout/app-navbar/nav/div/div/ul/li[7]/div/a[4]")
 	public static WebElement PBDetails;
@@ -137,6 +134,5 @@ public class Admin_Report_ProblemBankDetails_Object
 	public static WebElement ClickSem;
 	
 	@FindBy(xpath="/html/body/app-root/app-layout/app-problembank-details/div/div[2]/div/div/div[2]/div/div[2]/div/div[4]/div/div/div[2]/select")
-	public static WebElement SelectSem;
-		
+	public static WebElement SelectSem;		
 }

@@ -3,9 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Admin_Report_StationFacility_Object 
-{
-
+public class Admin_Report_StationFacility_Object {
 	@FindBy(xpath="/html/body/app-root/app-layout/app-navbar/nav/div/div/ul/li[2]/a")
 	public static WebElement Report;
 	
@@ -231,6 +229,5 @@ public class Admin_Report_StationFacility_Object
 	public static WebElement Export;
 	
 	@FindBy(xpath="/html/body/app-root/app-layout/app-station-facilites-list/div/div[2]/div/div/div[2]/div/div[2]/div/div[25]/button[2]")
-	public static WebElement ClickReset ;
-	
+	public static WebElement ClickReset ;	
 }

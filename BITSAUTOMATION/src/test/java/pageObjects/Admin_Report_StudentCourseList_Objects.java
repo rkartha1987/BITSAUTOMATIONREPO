@@ -3,9 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Admin_Report_StudentCourseList_Objects 
-{
-
+public class Admin_Report_StudentCourseList_Objects {
 	@FindBy(xpath="/html/body/app-root/app-layout/app-navbar/nav/div/div/ul/li[6]/a ")
 	public static WebElement Report ;
 	

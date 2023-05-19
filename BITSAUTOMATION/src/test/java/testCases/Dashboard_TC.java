@@ -111,7 +111,7 @@ public class Dashboard_TC extends CommonFunctions {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		extenttestCase=extentReport.createTest("Verifying Landing Page of Planning team");
 		PageFactory.initElements(driver, Dashboard_Page_Objects.class);
-		List<String> Expected=Arrays.asList("HOME", "MANAGE STATION", "PROBLEM BANK","SEMESTER ALLOTMENT","STATION ALLOTMENT","FACULTY ALLOTMENT","POST ALLOTMENT","ANNOUNCEMENT","REPORTS");
+		List<String> Expected=Arrays.asList("HOME", "MANAGE STATION", "PROBLEM BANK","SEMESTER ALLOTMENT","STATION ALLOTMENT","FACULTY ALLOTMENT","ANNOUNCEMENT","REPORTS");
 		List<WebElement> li=Dashboard_Page_Objects.MenuStrip;
 
 		List<String> Actual=new ArrayList<String>();

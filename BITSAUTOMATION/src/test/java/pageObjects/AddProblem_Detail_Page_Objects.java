@@ -4,7 +4,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class AddProblem_Detail_Page_Objects {
-
 	@FindBy(xpath="//*[@id=\"collapsibleNavbar\"]/ul/li[3]/a")
 	public static WebElement PBMenu;
 

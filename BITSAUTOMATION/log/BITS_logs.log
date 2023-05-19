@@ -7533,3 +7533,871 @@
 2022-01-21 10:13:36 INFO  Login:24 - Signing Out...
 2022-01-21 10:13:41 INFO  Login:34 - User Successfully Signed out
 2022-01-21 10:13:43 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-02-21 11:32:27 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-02-21 11:32:27 INFO  CommonFunctions:68 - Loading the property file
+2022-02-21 11:32:27 INFO  CommonFunctions:78 - Launching Chrome
+2022-02-21 11:32:28 INFO  CommonFunctions:88 - Navigating to Application
+2022-02-21 11:32:34 INFO  Login:25 - Launching the Application
+2022-02-21 11:32:34 INFO  Login:26 - Checking Login with valid UserId and invalid Password
+2022-02-21 11:33:57 INFO  Login:24 - Signing Out...
+2022-02-21 11:33:59 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-02-21 11:42:43 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-02-21 11:42:43 INFO  CommonFunctions:68 - Loading the property file
+2022-02-21 11:42:43 INFO  CommonFunctions:78 - Launching Chrome
+2022-02-21 11:42:44 INFO  CommonFunctions:88 - Navigating to Application
+2022-02-21 11:42:47 INFO  Login:25 - Launching the Application
+2022-02-21 11:42:47 INFO  Login:26 - Checking Login with valid UserId and invalid Password
+2022-02-21 11:45:55 INFO  Login:24 - Signing Out...
+2022-02-21 11:46:09 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-02-21 14:48:04 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-02-21 14:48:04 INFO  CommonFunctions:68 - Loading the property file
+2022-02-21 14:48:04 INFO  CommonFunctions:78 - Launching Chrome
+2022-02-21 14:48:06 INFO  CommonFunctions:88 - Navigating to Application
+2022-02-21 14:48:08 INFO  Login:25 - Launching the Application
+2022-02-21 14:48:08 INFO  Login:26 - Checking Login with valid UserId and invalid Password
+2022-02-21 14:50:26 INFO  Login:24 - Signing Out...
+2022-02-21 14:50:31 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-02-21 14:52:56 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-02-21 14:52:56 INFO  CommonFunctions:68 - Loading the property file
+2022-02-21 14:52:56 INFO  CommonFunctions:78 - Launching Chrome
+2022-02-21 14:52:57 INFO  CommonFunctions:88 - Navigating to Application
+2022-02-21 14:53:02 INFO  Login:25 - Launching the Application
+2022-02-21 14:53:02 INFO  Login:26 - Checking Login with valid UserId and invalid Password
+2022-02-21 14:55:27 INFO  Login:24 - Signing Out...
+2022-02-21 14:55:33 INFO  Login:34 - User Successfully Signed out
+2022-02-21 14:55:35 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-02-21 15:00:29 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-02-21 15:00:29 INFO  CommonFunctions:68 - Loading the property file
+2022-02-21 15:00:29 INFO  CommonFunctions:78 - Launching Chrome
+2022-02-21 15:00:31 INFO  CommonFunctions:88 - Navigating to Application
+2022-02-21 15:00:42 INFO  Login:25 - Launching the Application
+2022-02-21 15:00:42 INFO  Login:26 - Checking Login with valid UserId and invalid Password
+2022-02-21 15:03:06 INFO  Login:24 - Signing Out...
+2022-02-21 15:03:12 INFO  Login:34 - User Successfully Signed out
+2022-02-21 15:03:15 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-02-21 15:12:03 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-02-21 15:12:03 INFO  CommonFunctions:68 - Loading the property file
+2022-02-21 15:12:03 INFO  CommonFunctions:78 - Launching Chrome
+2022-02-21 15:12:04 INFO  CommonFunctions:88 - Navigating to Application
+2022-02-21 15:12:08 INFO  Login:25 - Launching the Application
+2022-02-21 15:12:08 INFO  Login:26 - Checking Login with valid UserId and invalid Password
+2022-02-21 15:14:31 INFO  Login:24 - Signing Out...
+2022-02-21 15:14:37 INFO  Login:34 - User Successfully Signed out
+2022-02-21 15:14:39 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-02-21 15:34:01 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-02-21 15:34:01 INFO  CommonFunctions:68 - Loading the property file
+2022-02-21 15:34:01 INFO  CommonFunctions:78 - Launching Chrome
+2022-02-21 15:34:02 INFO  CommonFunctions:88 - Navigating to Application
+2022-02-21 15:34:04 INFO  Login:25 - Launching the Application
+2022-02-21 15:34:04 INFO  Login:26 - Checking Login with valid UserId and invalid Password
+2022-02-21 15:39:14 INFO  Login:24 - Signing Out...
+2022-02-21 15:39:19 INFO  Login:34 - User Successfully Signed out
+2022-02-21 15:39:21 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-02-21 17:00:56 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-02-21 17:00:56 INFO  CommonFunctions:68 - Loading the property file
+2022-02-21 17:00:56 INFO  CommonFunctions:78 - Launching Chrome
+2022-02-21 17:00:57 INFO  CommonFunctions:88 - Navigating to Application
+2022-02-21 17:01:02 INFO  Login:25 - Launching the Application
+2022-02-21 17:01:02 INFO  Login:26 - Checking Login with valid UserId and invalid Password
+2022-02-21 17:06:10 INFO  Login:24 - Signing Out...
+2022-02-21 17:06:15 INFO  Login:34 - User Successfully Signed out
+2022-02-21 17:06:17 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-02-21 17:20:13 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-02-21 17:20:13 INFO  CommonFunctions:68 - Loading the property file
+2022-02-21 17:20:13 INFO  CommonFunctions:78 - Launching Chrome
+2022-02-21 17:20:14 INFO  CommonFunctions:88 - Navigating to Application
+2022-02-21 17:20:16 INFO  Login:25 - Launching the Application
+2022-02-21 17:20:16 INFO  Login:26 - Checking Login with valid UserId and invalid Password
+2022-02-21 17:24:02 INFO  Login:24 - Signing Out...
+2022-02-21 17:24:06 INFO  Login:34 - User Successfully Signed out
+2022-02-21 17:24:08 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-02-21 17:32:27 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-02-21 17:32:27 INFO  CommonFunctions:68 - Loading the property file
+2022-02-21 17:32:27 INFO  CommonFunctions:78 - Launching Chrome
+2022-02-21 17:32:29 INFO  CommonFunctions:88 - Navigating to Application
+2022-02-21 17:32:31 INFO  Login:25 - Launching the Application
+2022-02-21 17:32:31 INFO  Login:26 - Checking Login with valid UserId and invalid Password
+2022-02-21 17:36:05 INFO  Login:24 - Signing Out...
+2022-02-21 17:36:08 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-02-21 17:51:27 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-02-21 17:51:27 INFO  CommonFunctions:68 - Loading the property file
+2022-02-21 17:51:27 INFO  CommonFunctions:78 - Launching Chrome
+2022-02-21 17:51:28 INFO  CommonFunctions:88 - Navigating to Application
+2022-02-21 17:51:31 INFO  Login:25 - Launching the Application
+2022-02-21 17:51:31 INFO  Login:26 - Checking Login with valid UserId and invalid Password
+2022-02-21 17:56:16 INFO  Login:24 - Signing Out...
+2022-02-21 17:56:21 INFO  Login:34 - User Successfully Signed out
+2022-02-21 17:56:23 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-02-21 18:04:45 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-02-21 18:04:45 INFO  CommonFunctions:68 - Loading the property file
+2022-02-21 18:04:45 INFO  CommonFunctions:78 - Launching Chrome
+2022-02-21 18:04:46 INFO  CommonFunctions:88 - Navigating to Application
+2022-02-21 18:04:49 INFO  Login:25 - Launching the Application
+2022-02-21 18:04:49 INFO  Login:26 - Checking Login with valid UserId and invalid Password
+2022-02-21 18:10:20 INFO  Login:24 - Signing Out...
+2022-02-21 18:10:32 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-07 16:07:40 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-07 16:07:40 INFO  CommonFunctions:68 - Loading the property file
+2022-03-07 16:07:40 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-07 16:07:41 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-07 16:07:48 INFO  Login:25 - Launching the Application
+2022-03-07 16:07:48 INFO  Login:26 - Checking Login with valid UserId and invalid Password
+2022-03-07 16:08:17 INFO  Login:24 - Signing Out...
+2022-03-07 16:08:22 INFO  Login:34 - User Successfully Signed out
+2022-03-07 16:08:24 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-08 11:20:54 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-08 11:20:54 INFO  CommonFunctions:68 - Loading the property file
+2022-03-08 11:20:54 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-08 11:20:56 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-08 11:21:02 INFO  Login:21 - Launching the Application
+2022-03-08 11:21:02 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-08 11:24:19 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-08 11:24:19 INFO  CommonFunctions:68 - Loading the property file
+2022-03-08 11:24:19 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-08 11:24:20 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-08 11:24:23 INFO  Login:21 - Launching the Application
+2022-03-08 11:24:23 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-08 11:24:27 INFO  Login:24 - Signing Out...
+2022-03-08 11:24:30 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-08 11:26:52 INFO  Login:24 - Signing Out...
+2022-03-08 11:26:57 INFO  Login:34 - User Successfully Signed out
+2022-03-08 11:26:59 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-08 11:37:36 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-08 11:37:36 INFO  CommonFunctions:68 - Loading the property file
+2022-03-08 11:37:36 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-08 11:37:38 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-08 11:37:43 INFO  Login:21 - Launching the Application
+2022-03-08 11:37:43 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-08 11:40:16 INFO  Login:24 - Signing Out...
+2022-03-08 11:40:23 INFO  Login:34 - User Successfully Signed out
+2022-03-08 11:40:25 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-08 12:11:24 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-08 12:11:24 INFO  CommonFunctions:68 - Loading the property file
+2022-03-08 12:11:24 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-08 12:11:26 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-08 12:11:29 INFO  Login:21 - Launching the Application
+2022-03-08 12:11:29 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-08 12:14:03 INFO  Login:24 - Signing Out...
+2022-03-08 12:14:10 INFO  Login:34 - User Successfully Signed out
+2022-03-08 12:14:12 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-08 13:49:21 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-08 13:49:21 INFO  CommonFunctions:68 - Loading the property file
+2022-03-08 13:49:21 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-08 13:49:23 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-08 13:49:30 INFO  Login:21 - Launching the Application
+2022-03-08 13:49:30 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-08 13:52:03 INFO  Login:24 - Signing Out...
+2022-03-08 13:52:11 INFO  Login:34 - User Successfully Signed out
+2022-03-08 13:52:13 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-08 15:14:11 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-08 15:14:11 INFO  CommonFunctions:68 - Loading the property file
+2022-03-08 15:14:11 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-08 15:14:12 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-08 15:14:18 INFO  Login:21 - Launching the Application
+2022-03-08 15:14:18 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-08 15:16:40 INFO  Login:24 - Signing Out...
+2022-03-08 15:16:45 INFO  Login:34 - User Successfully Signed out
+2022-03-08 15:16:47 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-08 15:25:29 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-08 15:25:29 INFO  CommonFunctions:68 - Loading the property file
+2022-03-08 15:25:29 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-08 15:25:30 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-08 15:25:32 INFO  Login:21 - Launching the Application
+2022-03-08 15:25:32 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-08 15:27:53 INFO  Login:24 - Signing Out...
+2022-03-08 15:27:58 INFO  Login:34 - User Successfully Signed out
+2022-03-08 15:28:00 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-08 15:28:39 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-08 15:28:39 INFO  CommonFunctions:68 - Loading the property file
+2022-03-08 15:28:39 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-08 15:28:40 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-08 15:28:42 INFO  Login:21 - Launching the Application
+2022-03-08 15:28:42 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-08 15:31:03 INFO  Login:24 - Signing Out...
+2022-03-08 15:31:08 INFO  Login:34 - User Successfully Signed out
+2022-03-08 15:31:10 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-08 15:49:18 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-08 15:49:18 INFO  CommonFunctions:68 - Loading the property file
+2022-03-08 15:49:18 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-08 15:49:19 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-08 15:49:23 INFO  Login:21 - Launching the Application
+2022-03-08 15:49:23 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-08 15:51:47 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-09 10:13:34 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-09 10:13:34 INFO  CommonFunctions:68 - Loading the property file
+2022-03-09 10:13:34 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-09 10:13:35 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-09 10:13:39 INFO  Login:21 - Launching the Application
+2022-03-09 10:13:39 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-09 10:16:02 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-09 11:29:45 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-09 11:29:45 INFO  CommonFunctions:68 - Loading the property file
+2022-03-09 11:29:45 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-09 11:29:46 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-09 11:29:49 INFO  Login:21 - Launching the Application
+2022-03-09 11:29:49 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-09 11:32:13 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-09 14:05:48 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-09 14:05:48 INFO  CommonFunctions:68 - Loading the property file
+2022-03-09 14:05:48 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-09 14:05:49 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-09 14:05:57 INFO  Login:21 - Launching the Application
+2022-03-09 14:05:57 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-09 14:08:31 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-09 15:59:26 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-09 15:59:26 INFO  CommonFunctions:68 - Loading the property file
+2022-03-09 15:59:26 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-09 15:59:27 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-09 15:59:33 INFO  Login:21 - Launching the Application
+2022-03-09 15:59:33 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-09 16:02:02 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-09 17:07:56 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-09 17:07:56 INFO  CommonFunctions:68 - Loading the property file
+2022-03-09 17:07:56 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-09 17:07:58 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-09 17:08:05 INFO  Login:21 - Launching the Application
+2022-03-09 17:08:05 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-09 17:10:40 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-20 11:25:45 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-20 11:25:45 INFO  CommonFunctions:68 - Loading the property file
+2022-03-20 11:25:45 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-20 11:25:47 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-20 11:25:52 INFO  Login:21 - Launching the Application
+2022-03-20 11:25:52 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-20 11:28:14 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-20 11:43:51 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-20 11:43:51 INFO  CommonFunctions:68 - Loading the property file
+2022-03-20 11:43:51 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-20 11:43:52 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-20 11:43:54 INFO  Login:21 - Launching the Application
+2022-03-20 11:43:54 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-20 11:46:16 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-20 14:14:59 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-20 14:14:59 INFO  CommonFunctions:68 - Loading the property file
+2022-03-20 14:14:59 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-20 14:15:00 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-20 14:15:04 INFO  Login:21 - Launching the Application
+2022-03-20 14:15:04 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-20 14:17:26 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-20 15:08:52 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-20 15:08:52 INFO  CommonFunctions:68 - Loading the property file
+2022-03-20 15:08:52 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-20 15:08:53 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-20 15:08:55 INFO  Login:21 - Launching the Application
+2022-03-20 15:08:55 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-20 15:11:19 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-31 17:58:16 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-31 17:58:16 INFO  CommonFunctions:68 - Loading the property file
+2022-03-31 17:58:16 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-31 17:58:17 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-31 17:58:24 INFO  Login:21 - Launching the Application
+2022-03-31 17:58:24 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-31 18:00:56 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-03-31 18:07:16 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-03-31 18:07:16 INFO  CommonFunctions:68 - Loading the property file
+2022-03-31 18:07:16 INFO  CommonFunctions:78 - Launching Chrome
+2022-03-31 18:07:17 INFO  CommonFunctions:88 - Navigating to Application
+2022-03-31 18:07:24 INFO  Login:21 - Launching the Application
+2022-03-31 18:07:24 INFO  Login:22 - Checking Login with valid UserId and invalid Password
+2022-03-31 18:09:55 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-04-06 11:07:10 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-04-06 11:07:10 INFO  CommonFunctions:68 - Loading the property file
+2022-04-06 11:07:10 INFO  CommonFunctions:78 - Launching Chrome
+2022-04-06 11:07:12 INFO  CommonFunctions:88 - Navigating to Application
+2022-04-06 11:07:22 INFO  Login:21 - Launching the Application
+2022-04-06 11:07:22 INFO  Login:22 - Checking Login without any Credentials
+2022-04-06 11:07:30 INFO  Login:49 - Launching the Application
+2022-04-06 11:07:30 INFO  Login:50 - Checking Login with valid UserId and invalid Password
+2022-04-06 11:08:02 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-04-06 16:03:42 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-04-06 16:03:42 INFO  CommonFunctions:68 - Loading the property file
+2022-04-06 16:03:42 INFO  CommonFunctions:78 - Launching Chrome
+2022-04-06 16:03:43 INFO  CommonFunctions:88 - Navigating to Application
+2022-04-06 16:03:46 INFO  Login:23 - Launching the Application
+2022-04-06 16:03:46 INFO  Login:24 - Checking Login without any Credentials
+2022-04-06 16:04:19 INFO  Login:24 - Signing Out...
+2022-04-06 16:04:24 INFO  Login:34 - User Successfully Signed out
+2022-04-06 16:04:41 INFO  Login:24 - Signing Out...
+2022-04-06 16:04:46 INFO  Login:34 - User Successfully Signed out
+2022-04-06 16:05:03 INFO  Login:24 - Signing Out...
+2022-04-06 16:05:08 INFO  Login:34 - User Successfully Signed out
+2022-04-06 16:05:10 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 11:22:09 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 11:22:09 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 11:22:09 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 11:23:00 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 11:23:00 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 11:23:00 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 12:08:18 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 12:08:18 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 12:08:18 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 12:08:19 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 12:08:30 INFO  Login:23 - Launching the Application
+2022-05-27 12:08:30 INFO  Login:24 - Checking Login without any Credentials
+2022-05-27 12:27:05 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 12:27:05 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 12:27:05 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 12:27:06 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 12:28:21 INFO  Login:23 - Launching the Application
+2022-05-27 12:28:21 INFO  Login:24 - Checking Login without any Credentials
+2022-05-27 12:34:38 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 12:34:38 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 12:34:38 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 12:34:39 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 12:34:46 INFO  Login:23 - Launching the Application
+2022-05-27 12:34:46 INFO  Login:24 - Checking Login without any Credentials
+2022-05-27 12:35:24 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 12:38:02 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 12:38:02 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 12:38:02 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 12:38:03 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 12:38:09 INFO  Login:23 - Launching the Application
+2022-05-27 12:38:09 INFO  Login:24 - Checking Login without any Credentials
+2022-05-27 12:38:53 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 12:41:24 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 12:41:24 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 12:41:24 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 12:41:25 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 12:41:35 INFO  Login:23 - Launching the Application
+2022-05-27 12:41:35 INFO  Login:24 - Checking Login without any Credentials
+2022-05-27 12:42:18 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 12:45:20 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 12:45:20 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 12:45:20 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 12:45:22 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 12:45:33 INFO  Login:23 - Launching the Application
+2022-05-27 12:45:33 INFO  Login:24 - Checking Login without any Credentials
+2022-05-27 12:45:47 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 12:47:10 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 12:47:10 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 12:47:10 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 12:47:11 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 12:47:32 INFO  Login:23 - Launching the Application
+2022-05-27 12:47:32 INFO  Login:24 - Checking Login without any Credentials
+2022-05-27 12:48:13 INFO  Login:24 - Signing Out...
+2022-05-27 12:48:18 INFO  Login:34 - User Successfully Signed out
+2022-05-27 12:48:35 INFO  Login:24 - Signing Out...
+2022-05-27 12:48:40 INFO  Login:34 - User Successfully Signed out
+2022-05-27 12:48:59 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 13:13:44 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 13:13:44 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 13:13:44 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 13:13:45 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 13:13:58 INFO  Login:23 - Launching the Application
+2022-05-27 13:13:58 INFO  Login:24 - Checking Login without any Credentials
+2022-05-27 13:14:38 INFO  Login:24 - Signing Out...
+2022-05-27 13:14:43 INFO  Login:34 - User Successfully Signed out
+2022-05-27 13:15:01 INFO  Login:24 - Signing Out...
+2022-05-27 13:15:05 INFO  Login:34 - User Successfully Signed out
+2022-05-27 13:15:23 INFO  Login:24 - Signing Out...
+2022-05-27 13:15:28 INFO  Login:34 - User Successfully Signed out
+2022-05-27 13:15:30 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 13:21:33 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 13:21:33 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 13:21:33 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 13:21:34 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 13:22:03 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 13:23:37 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 13:23:37 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 13:23:37 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 13:23:38 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 13:23:50 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 13:27:21 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 13:27:21 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 13:27:21 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 13:27:22 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 13:28:05 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 13:30:42 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 13:30:42 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 13:30:42 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 13:30:43 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 13:31:12 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 14:40:58 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 14:40:58 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 14:40:58 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 14:41:00 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 14:41:41 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 14:44:51 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 14:44:51 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 14:44:51 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 14:44:52 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 14:45:30 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 14:47:13 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 14:47:13 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 14:47:13 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 14:47:14 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 14:47:52 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 14:52:30 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 14:52:30 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 14:52:30 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 14:52:31 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 14:53:10 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 14:57:55 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 14:57:55 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 14:57:55 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 14:57:56 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 14:58:38 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 15:04:01 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 15:04:01 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 15:04:01 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 15:04:02 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 15:05:02 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 15:07:11 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 15:07:11 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 15:07:11 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 15:07:12 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 15:07:51 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 15:10:42 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 15:10:42 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 15:10:42 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 15:10:43 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 15:11:44 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 15:14:39 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 15:14:39 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 15:14:39 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 15:14:41 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 15:15:24 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 15:19:30 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 15:19:30 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 15:19:30 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 15:19:32 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 15:20:29 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 15:25:13 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 15:25:13 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 15:25:13 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 15:25:14 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 15:26:18 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 15:40:20 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 15:40:20 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 15:40:20 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 15:40:21 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 15:42:54 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 15:55:23 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 15:55:23 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 15:55:23 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 15:55:24 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 15:57:44 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 16:00:28 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 16:00:28 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 16:00:28 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 16:00:29 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 16:02:45 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 16:04:53 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 16:04:53 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 16:04:53 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 16:04:54 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 16:07:10 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 17:27:26 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 17:27:26 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 17:27:26 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 17:27:27 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 17:28:22 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 17:28:39 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 17:28:39 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 17:28:39 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 17:28:40 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 17:29:57 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-05-27 17:32:23 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-05-27 17:32:23 INFO  CommonFunctions:68 - Loading the property file
+2022-05-27 17:32:23 INFO  CommonFunctions:78 - Launching Chrome
+2022-05-27 17:32:24 INFO  CommonFunctions:88 - Navigating to Application
+2022-05-27 17:34:58 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-15 14:59:54 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-15 14:59:54 INFO  CommonFunctions:68 - Loading the property file
+2022-07-15 14:59:54 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-15 14:59:56 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-15 15:00:09 INFO  Login:23 - Launching the Application
+2022-07-15 15:00:09 INFO  Login:24 - Checking Login without any Credentials
+2022-07-15 15:06:49 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-15 15:06:49 INFO  CommonFunctions:68 - Loading the property file
+2022-07-15 15:06:49 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-15 15:06:50 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-15 15:07:01 INFO  Login:23 - Launching the Application
+2022-07-15 15:07:01 INFO  Login:24 - Checking Login without any Credentials
+2022-07-15 15:07:45 INFO  Login:24 - Signing Out...
+2022-07-15 15:07:51 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:08:08 INFO  Login:24 - Signing Out...
+2022-07-15 15:08:14 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:08:31 INFO  Login:24 - Signing Out...
+2022-07-15 15:08:37 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:08:54 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-15 15:16:45 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-15 15:16:45 INFO  CommonFunctions:68 - Loading the property file
+2022-07-15 15:16:45 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-15 15:16:47 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-15 15:17:01 INFO  Login:23 - Launching the Application
+2022-07-15 15:17:01 INFO  Login:24 - Checking Login without any Credentials
+2022-07-15 15:17:47 INFO  Login:24 - Signing Out...
+2022-07-15 15:17:53 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:18:11 INFO  Login:24 - Signing Out...
+2022-07-15 15:18:16 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:18:34 INFO  Login:24 - Signing Out...
+2022-07-15 15:18:40 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:18:56 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-15 15:20:48 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-15 15:20:48 INFO  CommonFunctions:68 - Loading the property file
+2022-07-15 15:20:48 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-15 15:20:50 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-15 15:20:57 INFO  Login:23 - Launching the Application
+2022-07-15 15:20:57 INFO  Login:24 - Checking Login without any Credentials
+2022-07-15 15:21:41 INFO  Login:24 - Signing Out...
+2022-07-15 15:21:47 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:22:04 INFO  Login:24 - Signing Out...
+2022-07-15 15:22:10 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:22:28 INFO  Login:24 - Signing Out...
+2022-07-15 15:22:33 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:22:50 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-15 15:26:02 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-15 15:26:02 INFO  CommonFunctions:68 - Loading the property file
+2022-07-15 15:26:02 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-15 15:26:03 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-15 15:26:17 INFO  Login:23 - Launching the Application
+2022-07-15 15:26:17 INFO  Login:24 - Checking Login without any Credentials
+2022-07-15 15:27:01 INFO  Login:24 - Signing Out...
+2022-07-15 15:27:07 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:27:24 INFO  Login:24 - Signing Out...
+2022-07-15 15:27:30 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:27:47 INFO  Login:24 - Signing Out...
+2022-07-15 15:27:53 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:28:10 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-15 15:33:21 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-15 15:33:21 INFO  CommonFunctions:68 - Loading the property file
+2022-07-15 15:33:21 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-15 15:33:23 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-15 15:33:34 INFO  Login:23 - Launching the Application
+2022-07-15 15:33:34 INFO  Login:24 - Checking Login without any Credentials
+2022-07-15 15:34:17 INFO  Login:24 - Signing Out...
+2022-07-15 15:34:23 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:34:41 INFO  Login:24 - Signing Out...
+2022-07-15 15:34:46 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:35:04 INFO  Login:24 - Signing Out...
+2022-07-15 15:35:10 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:35:36 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-15 15:43:03 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-15 15:43:03 INFO  CommonFunctions:68 - Loading the property file
+2022-07-15 15:43:03 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-15 15:43:04 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-15 15:43:13 INFO  Login:23 - Launching the Application
+2022-07-15 15:43:13 INFO  Login:24 - Checking Login without any Credentials
+2022-07-15 15:43:57 INFO  Login:24 - Signing Out...
+2022-07-15 15:44:03 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:44:20 INFO  Login:24 - Signing Out...
+2022-07-15 15:44:26 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:44:44 INFO  Login:24 - Signing Out...
+2022-07-15 15:44:50 INFO  Login:34 - User Successfully Signed out
+2022-07-15 15:45:16 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-15 16:28:34 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-15 16:28:34 INFO  CommonFunctions:68 - Loading the property file
+2022-07-15 16:28:34 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-15 16:28:36 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-15 16:28:49 INFO  Login:23 - Launching the Application
+2022-07-15 16:28:49 INFO  Login:24 - Checking Login without any Credentials
+2022-07-15 16:29:32 INFO  Login:24 - Signing Out...
+2022-07-15 16:29:38 INFO  Login:34 - User Successfully Signed out
+2022-07-15 16:29:55 INFO  Login:24 - Signing Out...
+2022-07-15 16:30:01 INFO  Login:34 - User Successfully Signed out
+2022-07-15 16:30:18 INFO  Login:24 - Signing Out...
+2022-07-15 16:30:24 INFO  Login:34 - User Successfully Signed out
+2022-07-15 16:30:51 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-15 16:54:39 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-15 16:54:39 INFO  CommonFunctions:68 - Loading the property file
+2022-07-15 16:54:39 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-15 16:54:40 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-15 16:55:00 INFO  Login:23 - Launching the Application
+2022-07-15 16:55:00 INFO  Login:24 - Checking Login without any Credentials
+2022-07-15 16:55:43 INFO  Login:24 - Signing Out...
+2022-07-15 16:55:48 INFO  Login:34 - User Successfully Signed out
+2022-07-15 16:56:06 INFO  Login:24 - Signing Out...
+2022-07-15 16:56:12 INFO  Login:34 - User Successfully Signed out
+2022-07-15 16:56:29 INFO  Login:24 - Signing Out...
+2022-07-15 16:56:35 INFO  Login:34 - User Successfully Signed out
+2022-07-15 16:57:02 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-15 16:58:14 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-15 16:58:14 INFO  CommonFunctions:68 - Loading the property file
+2022-07-15 16:58:14 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-15 16:58:15 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-15 16:58:21 INFO  Login:23 - Launching the Application
+2022-07-15 16:58:21 INFO  Login:24 - Checking Login without any Credentials
+2022-07-15 16:59:05 INFO  Login:24 - Signing Out...
+2022-07-15 16:59:11 INFO  Login:34 - User Successfully Signed out
+2022-07-15 16:59:28 INFO  Login:24 - Signing Out...
+2022-07-15 16:59:34 INFO  Login:34 - User Successfully Signed out
+2022-07-15 16:59:51 INFO  Login:24 - Signing Out...
+2022-07-15 16:59:57 INFO  Login:34 - User Successfully Signed out
+2022-07-15 17:00:24 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-22 11:49:59 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-22 11:49:59 INFO  CommonFunctions:68 - Loading the property file
+2022-07-22 11:49:59 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-22 11:50:01 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-26 13:50:29 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-26 13:50:29 INFO  CommonFunctions:68 - Loading the property file
+2022-07-26 13:50:29 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-26 13:50:31 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-26 13:50:40 INFO  Login:23 - Launching the Application
+2022-07-26 13:50:40 INFO  Login:24 - Checking Login without any Credentials
+2022-07-26 13:51:24 INFO  Login:24 - Signing Out...
+2022-07-26 13:51:29 INFO  Login:34 - User Successfully Signed out
+2022-07-26 13:51:49 INFO  Login:24 - Signing Out...
+2022-07-26 13:51:54 INFO  Login:34 - User Successfully Signed out
+2022-07-26 13:52:12 INFO  Login:24 - Signing Out...
+2022-07-26 13:52:18 INFO  Login:34 - User Successfully Signed out
+2022-07-26 13:52:20 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-26 21:39:04 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-26 21:39:04 INFO  CommonFunctions:68 - Loading the property file
+2022-07-26 21:39:04 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-26 21:39:06 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-26 21:39:17 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-26 21:42:06 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-26 21:42:06 INFO  CommonFunctions:68 - Loading the property file
+2022-07-26 21:42:06 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-26 21:42:07 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-26 21:42:12 INFO  Login:194 - Launching the Application
+2022-07-26 21:42:56 INFO  Login:194 - Launching the Application
+2022-07-26 21:43:28 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-27 14:42:35 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-27 14:42:35 INFO  CommonFunctions:68 - Loading the property file
+2022-07-27 14:42:35 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-27 14:42:37 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-27 14:42:46 INFO  Login:194 - Launching the Application
+2022-07-27 14:43:30 INFO  Login:194 - Launching the Application
+2022-07-27 14:44:03 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-27 14:57:21 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-27 14:57:21 INFO  CommonFunctions:68 - Loading the property file
+2022-07-27 14:57:21 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-27 14:57:23 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-27 14:57:27 INFO  Login:194 - Launching the Application
+2022-07-27 14:58:11 INFO  Login:194 - Launching the Application
+2022-07-27 14:58:44 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-27 15:02:32 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-27 15:02:32 INFO  CommonFunctions:68 - Loading the property file
+2022-07-27 15:02:32 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-27 15:02:34 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-27 15:02:38 INFO  Login:194 - Launching the Application
+2022-07-27 15:03:00 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-27 15:03:49 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-27 15:03:49 INFO  CommonFunctions:68 - Loading the property file
+2022-07-27 15:03:49 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-27 15:03:50 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-27 15:03:54 INFO  Login:194 - Launching the Application
+2022-07-27 15:04:16 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-27 15:10:42 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-27 15:10:42 INFO  CommonFunctions:68 - Loading the property file
+2022-07-27 15:10:42 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-27 15:10:44 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-27 15:10:48 INFO  Login:194 - Launching the Application
+2022-07-27 15:11:10 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-27 15:16:50 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-27 15:16:50 INFO  CommonFunctions:68 - Loading the property file
+2022-07-27 15:16:50 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-27 15:16:52 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-27 15:16:56 INFO  Login:194 - Launching the Application
+2022-07-27 15:17:17 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-27 15:17:58 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-27 15:17:58 INFO  CommonFunctions:68 - Loading the property file
+2022-07-27 15:17:58 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-27 15:18:00 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-27 15:18:04 INFO  Login:194 - Launching the Application
+2022-07-27 15:18:29 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-29 17:39:08 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-29 17:39:08 INFO  CommonFunctions:68 - Loading the property file
+2022-07-29 17:39:08 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-29 17:39:10 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-29 17:39:19 INFO  Login:194 - Launching the Application
+2022-07-29 17:39:44 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-29 17:40:36 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-29 17:40:36 INFO  CommonFunctions:68 - Loading the property file
+2022-07-29 17:40:36 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-29 17:40:38 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-29 17:40:43 INFO  Login:194 - Launching the Application
+2022-07-29 17:41:08 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-07-29 17:42:52 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-07-29 17:42:52 INFO  CommonFunctions:68 - Loading the property file
+2022-07-29 17:42:52 INFO  CommonFunctions:78 - Launching Chrome
+2022-07-29 17:42:53 INFO  CommonFunctions:88 - Navigating to Application
+2022-07-29 17:43:01 INFO  Login:194 - Launching the Application
+2022-07-29 17:43:26 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-01 14:25:32 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-01 14:25:32 INFO  CommonFunctions:68 - Loading the property file
+2022-12-01 14:25:32 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-01 14:30:55 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-01 14:30:55 INFO  CommonFunctions:68 - Loading the property file
+2022-12-01 14:30:55 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-01 14:35:23 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-01 14:35:23 INFO  CommonFunctions:68 - Loading the property file
+2022-12-01 14:35:23 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-01 14:41:22 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-01 14:41:22 INFO  CommonFunctions:68 - Loading the property file
+2022-12-01 14:41:22 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 10:20:33 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 10:20:33 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 10:20:33 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 10:20:39 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 10:20:42 INFO  Login:194 - Launching the Application
+2022-12-05 10:20:57 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 10:38:49 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 10:38:49 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 10:38:49 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 10:38:51 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 10:38:54 INFO  Login:194 - Launching the Application
+2022-12-05 10:39:08 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 10:40:23 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 10:40:23 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 10:40:23 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 10:40:24 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 10:40:44 INFO  Login:194 - Launching the Application
+2022-12-05 10:40:59 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 10:42:52 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 10:42:52 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 10:42:52 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 10:42:54 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 10:42:55 INFO  Login:194 - Launching the Application
+2022-12-05 10:43:10 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 10:47:55 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 10:47:55 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 10:47:55 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 10:47:56 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 10:47:59 INFO  Login:194 - Launching the Application
+2022-12-05 10:48:14 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 11:11:47 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 11:11:47 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 11:11:47 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 11:11:49 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 11:11:52 INFO  Login:194 - Launching the Application
+2022-12-05 11:12:07 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 11:17:36 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 11:17:36 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 11:17:36 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 11:17:38 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 11:17:41 INFO  Login:194 - Launching the Application
+2022-12-05 11:17:58 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 11:19:27 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 11:19:27 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 11:19:27 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 11:19:29 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 11:19:32 INFO  Login:194 - Launching the Application
+2022-12-05 11:19:55 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 11:24:15 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 11:24:15 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 11:24:15 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 11:24:16 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 11:24:19 INFO  Login:194 - Launching the Application
+2022-12-05 11:25:18 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 11:30:04 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 11:30:04 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 11:30:04 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 11:30:05 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 11:30:09 INFO  Login:194 - Launching the Application
+2022-12-05 11:30:53 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 11:35:55 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 11:35:55 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 11:35:55 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 11:35:57 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 11:35:59 INFO  Login:194 - Launching the Application
+2022-12-05 11:37:11 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 11:42:58 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 11:42:58 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 11:42:58 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 11:43:00 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 11:43:03 INFO  Login:194 - Launching the Application
+2022-12-05 11:44:17 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 11:51:53 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 11:51:53 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 11:51:53 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 11:51:55 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 11:51:58 INFO  Login:194 - Launching the Application
+2022-12-05 11:53:29 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 12:15:09 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 12:15:09 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 12:15:09 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 12:15:11 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 12:15:14 INFO  Login:194 - Launching the Application
+2022-12-05 12:16:46 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 12:35:59 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 12:35:59 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 12:35:59 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 12:36:02 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 12:36:05 INFO  Login:194 - Launching the Application
+2022-12-05 12:37:28 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 13:37:45 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 13:37:45 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 13:37:45 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 13:37:47 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 13:37:50 INFO  Login:194 - Launching the Application
+2022-12-05 13:38:14 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 13:42:25 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 13:42:25 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 13:42:25 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 13:42:27 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 13:42:52 INFO  Login:194 - Launching the Application
+2022-12-05 13:43:04 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 13:43:18 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 13:43:18 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 13:43:18 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 13:43:19 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 13:43:38 INFO  Login:194 - Launching the Application
+2022-12-05 13:44:41 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 13:51:45 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 13:51:45 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 13:51:45 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 13:51:46 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 13:51:49 INFO  Login:194 - Launching the Application
+2022-12-05 13:52:59 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 13:54:44 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 13:54:44 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 13:54:44 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 13:54:45 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 13:54:49 INFO  Login:194 - Launching the Application
+2022-12-05 13:56:29 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2022-12-05 15:42:07 INFO  CommonFunctions:67 - BITS Application Test Begins
+2022-12-05 15:42:07 INFO  CommonFunctions:68 - Loading the property file
+2022-12-05 15:42:07 INFO  CommonFunctions:78 - Launching Chrome
+2022-12-05 15:42:09 INFO  CommonFunctions:88 - Navigating to Application
+2022-12-05 15:42:10 INFO  Login:194 - Launching the Application
+2022-12-05 15:43:54 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2023-01-09 15:15:53 INFO  CommonFunctions:67 - BITS Application Test Begins
+2023-01-09 15:15:53 INFO  CommonFunctions:68 - Loading the property file
+2023-01-09 15:15:53 INFO  CommonFunctions:78 - Launching Chrome
+2023-01-09 15:15:55 INFO  CommonFunctions:88 - Navigating to Application
+2023-01-09 15:15:58 INFO  Login:194 - Launching the Application
+2023-01-09 15:17:03 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2023-01-11 15:28:54 INFO  CommonFunctions:67 - BITS Application Test Begins
+2023-01-11 15:28:54 INFO  CommonFunctions:68 - Loading the property file
+2023-01-11 15:28:54 INFO  CommonFunctions:78 - Launching Chrome
+2023-01-11 15:28:56 INFO  CommonFunctions:88 - Navigating to Application
+2023-01-11 15:28:58 INFO  Login:194 - Launching the Application
+2023-01-11 15:29:45 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2023-01-11 15:29:59 INFO  CommonFunctions:67 - BITS Application Test Begins
+2023-01-11 15:29:59 INFO  CommonFunctions:68 - Loading the property file
+2023-01-11 15:29:59 INFO  CommonFunctions:78 - Launching Chrome
+2023-01-11 15:30:00 INFO  CommonFunctions:88 - Navigating to Application
+2023-01-11 15:30:04 INFO  Login:194 - Launching the Application
+2023-01-11 15:31:48 INFO  CommonFunctions:97 - Execution done. Closing the browser
+2023-03-24 09:09:06 INFO  CommonFunctions:64 - BITS Application Test Begins
+2023-03-24 09:09:06 INFO  CommonFunctions:65 - Loading the property file
+2023-03-24 09:09:06 INFO  CommonFunctions:75 - Launching Chrome
+2023-03-24 09:14:20 INFO  CommonFunctions:64 - BITS Application Test Begins
+2023-03-24 09:14:20 INFO  CommonFunctions:65 - Loading the property file
+2023-03-24 09:14:20 INFO  CommonFunctions:75 - Launching Chrome
+2023-03-24 09:14:22 INFO  CommonFunctions:85 - Navigating to Application
+2023-03-24 09:14:25 INFO  Login:194 - Launching the Application
+2023-03-24 09:15:00 INFO  CommonFunctions:94 - Execution done. Closing the browser
+2023-03-24 09:38:13 INFO  CommonFunctions:64 - BITS Application Test Begins
+2023-03-24 09:38:13 INFO  CommonFunctions:65 - Loading the property file
+2023-03-24 09:38:13 INFO  CommonFunctions:75 - Launching Chrome
+2023-03-24 09:38:14 INFO  CommonFunctions:85 - Navigating to Application
+2023-03-24 09:40:26 INFO  CommonFunctions:94 - Execution done. Closing the browser
+2023-03-24 09:47:54 INFO  CommonFunctions:64 - BITS Application Test Begins
+2023-03-24 09:47:54 INFO  CommonFunctions:65 - Loading the property file
+2023-03-24 09:47:54 INFO  CommonFunctions:75 - Launching Chrome
+2023-03-24 09:47:56 INFO  CommonFunctions:85 - Navigating to Application
+2023-03-24 09:49:28 INFO  CommonFunctions:94 - Execution done. Closing the browser
+2023-03-24 09:50:49 INFO  CommonFunctions:64 - BITS Application Test Begins
+2023-03-24 09:50:49 INFO  CommonFunctions:65 - Loading the property file
+2023-03-24 09:50:49 INFO  CommonFunctions:75 - Launching Chrome
+2023-03-24 09:50:50 INFO  CommonFunctions:85 - Navigating to Application
+2023-03-24 09:53:03 INFO  CommonFunctions:94 - Execution done. Closing the browser
+2023-03-24 10:02:44 INFO  CommonFunctions:64 - BITS Application Test Begins
+2023-03-24 10:02:44 INFO  CommonFunctions:65 - Loading the property file
+2023-03-24 10:02:44 INFO  CommonFunctions:75 - Launching Chrome
+2023-03-24 10:02:45 INFO  CommonFunctions:85 - Navigating to Application
+2023-03-24 10:09:45 INFO  CommonFunctions:94 - Execution done. Closing the browser

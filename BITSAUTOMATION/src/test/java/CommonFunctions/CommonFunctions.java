@@ -32,7 +32,6 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 public class CommonFunctions{
-//
 	public static WebDriver driver = null; 
 	public static Properties properties = null;
 	public static ExtentReports extentReport;
@@ -43,9 +42,9 @@ public class CommonFunctions{
 	static XSSFSheet sheet;
 	public static ScreenRecorder screenRecorder;
 	public String name;
-		
+
 	Logger logger = Logger.getLogger(CommonFunctions.class);	
-	
+
 	public Properties loadpropertyFile() throws IOException
 	{
 		FileInputStream fileInputStream = new FileInputStream("Config.properties");
@@ -55,19 +54,17 @@ public class CommonFunctions{
 	}
 
 	@BeforeSuite
-	public void launchBrowser() throws Throwable
-	{
+	public void launchBrowser() throws Throwable {
 		/* MyScreenRecorder.startRecording("launchBrowser"); */
-		
 		extentReport = new ExtentReports();		
 		htmlReporter = new ExtentHtmlReporter("ExtentReport.html");		
 		extentReport.attachReporter(htmlReporter);
-		
+
 		PropertyConfigurator.configure("log4j.properties");
 		logger.info("BITS Application Test Begins");
 		logger.info("Loading the property file");
 		loadpropertyFile();
-		
+
 		String browser=properties.getProperty("browser");
 		String url = properties.getProperty("url");
 		String driverLocation = properties.getProperty("DriverLocation");
@@ -100,10 +97,9 @@ public class CommonFunctions{
 		/* MyScreenRecorder.stopRecording(); */
 	}
 	//////////////////////////////Excel Code /////////////////////////////////////
-	
+
 	public static String getExcelData(String sheetName, int rowNum, int colNum) throws Throwable
 	{
-		
 		FileInputStream fis = new FileInputStream(properties.getProperty("FileInputStream"));
 		Workbook wb = WorkbookFactory.create(fis);
 		Sheet sh = wb.getSheet(sheetName);

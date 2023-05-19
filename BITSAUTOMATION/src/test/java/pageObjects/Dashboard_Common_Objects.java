@@ -4,28 +4,31 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class Dashboard_Common_Objects {
-
 	@FindBy(xpath="//*[@id=\"collapsibleNavbar\"]/ul/li[1]/a")
 	public static WebElement Home;
 	
 	@FindBy(xpath="//h2[contains(text(),'Station Allotment Details')]")
 	public static WebElement Dashboard;
 	
-	@FindBy(xpath="/html/body/app-root/app-layout/app-planning-dashboard/div/div[1]/div/div/div/nav/ul/li[1]")
-	public static WebElement PSMenu;
+	@FindBy(xpath="/html/body/app-root/app-layout/app-header/nav/div/div/div[2]/ul/li[2]/div/div/a/span")
+	public static WebElement WelcomeMsg;
 	
-	@FindBy(xpath="/html/body/app-root/app-layout/app-planning-dashboard/div/div[1]/div/div/div/nav/ul/li[2]")
+	//@FindBy(xpath="/html/body/app-root/app-layout/app-planning-dashboard/div/div[1]/div/div/div/nav/ul/li[1]")
+	@FindBy(xpath="/html/body/app-root/app-layout/app-planning-dashboard/div/div[1]/div/div/div[1]/nav/ul/li[2]")
+	public static WebElement PSType;
+	
+	//@FindBy(xpath="/html/body/app-root/app-layout/app-planning-dashboard/div/div[1]/div/div/div/nav/ul/li[2]")
+	@FindBy(xpath="/html/body/app-root/app-layout/app-planning-dashboard/div/div[1]/div/div/div[1]/nav/ul/li[3]")
 	public static WebElement Semester;
 	
-	
-	@FindBy(xpath="/html/body/app-root/app-layout/app-planning-dashboard/div/div[1]/div/div/div/nav/ul/li[3]")
+	//@FindBy(xpath="/html/body/app-root/app-layout/app-planning-dashboard/div/div[1]/div/div/div/nav/ul/li[3]")
+	@FindBy(xpath="/html/body/app-root/app-layout/app-planning-dashboard/div/div[1]/div/div/div[1]/nav/ul/li[1]")
 	public static WebElement Currentbatch;
 	
 	/////////////////////// Dash board ////////////////////////////////////////
 	//@FindBy(xpath="//*[@id=\"studentscount\"]")
 	@FindBy(xpath="//*[@id=\"studentscount\"]/strong")
-	public static WebElement TotalStudentcount;
-	
+	public static WebElement TotalStudentcount;	
 	
 	//@FindBy(xpath="/html/body/app-root/app-layout/app-planning-dashboard/div/div[2]/div/div[2]/div/div[2]/div")
 	@FindBy(xpath="/html/body/app-root/app-layout/app-planning-dashboard/div/div[2]/div/div[2]/div/div[2]/div/strong")
@@ -98,6 +101,7 @@ public class Dashboard_Common_Objects {
 	
 	//@FindBy(xpath="//*[@id=\"faculty\"]/div[1]/div[1]")
 	@FindBy(xpath="//*[@id=\"faculty\"]/div[1]/div[1]/strong")
+	
 	public static WebElement FacultyTotal ;
 	
 	//@FindBy(xpath="//*[@id=\"faculty\"]/div[1]/div[1]")
@@ -116,5 +120,5 @@ public class Dashboard_Common_Objects {
 	public static WebElement FacultyAvailable ;
 	
 	@FindBy(xpath="//*[@id=\"faculty\"]/div[3]/div[2]/strong")
-	public static WebElement FacultyAvgStationAllotted ;
+	public static WebElement FacultyAvgStationAllotted ;	
 }

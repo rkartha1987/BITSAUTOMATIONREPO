@@ -3,13 +3,39 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.Login">
+      <class name="testCases.AdminRole_Dashboard">
         <methods>
+          <include name="VerifyTotalRequirements"/>
+          <include name="VerifyStipendLowest"/>
+          <include name="VerifyStationsAllotted"/>
+          <include name="VerifyAnnouncedStations"/>
+          <include name="VerifyStipendAverage"/>
+          <include name="VerifyAllottedOrganizations"/>
+          <include name="VerifyFacultyOffCampus"/>
+          <include name="VerifyTotalStudents"/>
+          <include name="VerifyStipendMedian"/>
+          <include name="VerifyCoreDiscipline"/>
+          <include name="VerifyTop5Preferences"/>
+          <include name="VerifySemester"/>
+          <include name="VerifyAllottedStudents"/>
+          <include name="VerifyPracticeSchool"/>
+          <include name="VerifyFacultyAvailable"/>
+          <include name="VerifyFacultyTotal"/>
           <include name="tearDown"/>
-          <include name="invalidUserIdandPassword"/>
+          <include name="VerifyDashboardpage"/>
+          <include name="VerifyNonCoreDiscipline"/>
+          <include name="VerifyCurrentBatch"/>
+          <include name="VerifyFacultyAllotted"/>
+          <include name="VerifyAvgStationAllotted"/>
           <include name="launchBrowser"/>
+          <include name="VerifyStationsParticipated"/>
+          <include name="VerifyOrganizationsAnnounced"/>
+          <include name="AdminPageLanding"/>
+          <include name="VerifyFacultyOnCampus"/>
+          <include name="VerifyStipendHighest"/>
+          <include name="VerifyTotalAllotted"/>
         </methods>
-      </class> <!-- testCases.Login -->
+      </class> <!-- testCases.AdminRole_Dashboard -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

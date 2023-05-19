@@ -188,7 +188,11 @@ public class Login extends CommonFunctions{
 	
 	public static void PlanningLogin() throws Throwable
 	{
-	
+		PageFactory.initElements(driver, Login_Page_Objects.class);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		extenttestCase=extentReport.createTest("Login using Planning Team");
+		logger.info("Launching the Application");
+		
 	Login_Page_Objects.UserId.clear();
 	Thread.sleep(2000);
 	

@@ -5,7 +5,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class Admin_Report_ActiveStations_Objects 
 {
-
 	@FindBy(xpath=" /html/body/app-root/app-layout/app-navbar/nav/div/div/ul/li[6]/a")
 	public static WebElement Report;
 	
@@ -55,6 +54,5 @@ public class Admin_Report_ActiveStations_Objects
 	public static WebElement Result ;
 	
 	@FindBy(xpath="/html/body/app-root/app-layout/app-active-station-report/div/div[1]/div/div/div[3]/div/button")
-	public static WebElement Export;
-	
+	public static WebElement Export;	
 }

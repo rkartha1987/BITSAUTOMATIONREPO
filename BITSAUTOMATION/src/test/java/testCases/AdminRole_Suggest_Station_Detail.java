@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 
 import CommonFunctions.CommonFunctions;
+import pageObjects.Dashboard_Common_Objects;
 import pageObjects.Suggest_Station_Detail_Page_Objects;
 import pageObjects.Suggest_Station_List_Page_Objects;
 
@@ -17,9 +18,26 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 
 	static Logger logger = Logger.getLogger(AdminRole_Suggest_Station_Detail.class);
 
+	
 	@Test(priority = 0)
+	public void AdminPageLanding() throws InterruptedException, IOException, Throwable
+	{
+		Login.AdminLogin();
+		
+		extenttestCase=extentReport.createTest("Verifying Admin's Dashboard Page");
+		Thread.sleep(2000);
+
+		PageFactory.initElements(driver, Dashboard_Common_Objects.class);
+		Dashboard_Common_Objects.Home.click();
+		extenttestCase.log(Status.INFO,"Landed in Admin's Dashboard Page");
+		Thread.sleep(2000);
+
+		captureScreen("Admin - Dashboard.png");		
+	}
+	@Test(priority = 1)
 	public void StationMenu() throws InterruptedException, IOException
 	{
+		
 		extenttestCase=extentReport.createTest("Verifying Suggest Station Detail Page");
 		PageFactory.initElements(driver, Suggest_Station_Detail_Page_Objects.class);
 		extenttestCase.log(Status.INFO,"Landing into Suggest Station List");
@@ -27,7 +45,7 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 		Thread.sleep(2000);		
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void ClickAddStation() throws Throwable
 	{
 		extenttestCase.log(Status.INFO,"Landing into Add Station Detail Page");
@@ -38,7 +56,7 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 		captureScreen("AddStationDetail.png");
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 3)
 	public void AddValidation() throws InterruptedException
 	{
 		extenttestCase.log(Status.INFO,"Verifying Add Station Mandatory Field Validation");
@@ -73,7 +91,7 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 		Thread.sleep(2000);
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 4)
 	public void VerifyExpand() throws InterruptedException
 	{
 		extenttestCase.log(Status.INFO,"Verifying Expand and Collapse Functionality Validation");
@@ -87,7 +105,7 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 		Thread.sleep(5000);
 	}
 
-	@Test(priority = 4)
+	@Test(priority = 5)
 	public void VerifyAddStation() throws Throwable
 	{
 		extenttestCase.log(Status.INFO,"Verifying Add New Station");
@@ -156,7 +174,7 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 
 	}
 
-	@Test(priority = 5)
+	@Test(priority = 6)
 	public void VerifyAddedStation() throws Throwable
 	{
 		extenttestCase.log(Status.INFO,"Verifying New Added Station in Suggest Station List");
@@ -200,7 +218,7 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 
 	}
 
-	@Test(priority = 6)
+	@Test(priority = 7)
 	public void OpenEditStation() throws Throwable
 	{
 		extenttestCase.log(Status.INFO,"Verifying Edit Faculty");
@@ -289,7 +307,7 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 		Thread.sleep(2000);	
 	}	
 
-	@Test(priority = 7)
+	@Test(priority = 8)
 	public void VerifyEditedStation() throws Throwable
 	{
 		extenttestCase.log(Status.INFO,"Verifying Edited Station in Listing");
@@ -331,7 +349,7 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 		}
 	}
 
-	@Test(priority = 8)
+	@Test(priority = 9)
 	public void ClickDelete () throws Throwable
 	{
 		extenttestCase.log(Status.INFO,"Deleting a Record");
@@ -374,7 +392,7 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 
 	}
 
-	@Test(priority = 9)
+	@Test(priority = 10)
 	public void VerifyDelete() throws Throwable
 	{
 		driver.navigate().refresh();
@@ -406,7 +424,7 @@ public class AdminRole_Suggest_Station_Detail extends CommonFunctions{
 		driver.navigate().refresh();
 	}
 
-	//@Test(priority = 10)
+	//@Test(priority = 11)
 	public void Signout() throws InterruptedException
 	{
 		extenttestCase.log(Status.INFO,"Verifying SingOut from Admin Role");

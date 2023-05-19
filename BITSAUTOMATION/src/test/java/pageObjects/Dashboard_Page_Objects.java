@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class Dashboard_Page_Objects {
-
 	//----------------------Menu Strip----------------
 	@FindBy(xpath="//div[@id='collapsibleNavbar']//li")
 	public static List<WebElement> MenuStrip;
@@ -24,8 +23,7 @@ public class Dashboard_Page_Objects {
 	public static WebElement StudSemAllot_Menu;
 
 	@FindBy(xpath="//a[contains(text(),'All Allotted Student List')]")
-	public static WebElement AllotStudList_Menu;
-	
+	public static WebElement AllotStudList_Menu;	
 
 	@FindBy(xpath="//a[contains(text(),'Station Allotment')]")
 	public static WebElement StatAllot_Menu;
@@ -54,10 +52,6 @@ public class Dashboard_Page_Objects {
 	@FindBy(xpath="//a[contains(text(),'Student Wise')]")
 	public static WebElement StudWise_Menu;
 	
-	
-	
-	
-	
 //------------------MenuStrip related to Planning Team--------------------------
 	
 	@FindBy(xpath="//*[text()='Manage Station']")
@@ -65,9 +59,6 @@ public class Dashboard_Page_Objects {
 
 	@FindBy(xpath="//a[text()='Problem Bank']")
 	public static WebElement ProbBank_Menustrp;
-
-	
-	
 	
 	@FindBy(xpath="//a[contains(text(),'Station Allotment')]//parent::li/div//a")
 	public static WebElement StatAllot_drpdwnlist;
@@ -86,7 +77,6 @@ public class Dashboard_Page_Objects {
 	
 	@FindBy(xpath="//a[text()='View Faculty Allotment']")
 	public static WebElement ViewFaculty_drpdwnval;
-
 	
 //--------------------Reports-----------------------------	
 	@FindBy(xpath="//*[contains(text(),'Reports')]")
@@ -224,7 +214,6 @@ public class Dashboard_Page_Objects {
 	
 	@FindBy(xpath="//*[contains(text(),'Lowest')]")
 	public static WebElement Lowest;
-	
 		
 	@FindBy(xpath="//a[@data-toggle='pill' and text()='Faculty']")
 	public static WebElement Faculty_pill;
@@ -268,5 +257,6 @@ public class Dashboard_Page_Objects {
 	public static WebElement CGPA_9to10;
 	//div[@class='dashcount']//strong
 	
-	
+	@FindBy(xpath="//*[@id=\"collapsibleNavbar\"]/ul/li[4]/a")
+	public static WebElement SemesterAllotment;	
 }
